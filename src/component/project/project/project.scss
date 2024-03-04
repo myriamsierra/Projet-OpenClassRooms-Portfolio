@@ -1,0 +1,74 @@
+.project{
+    width: 100%;
+    height: 100vh;
+
+    &__box{
+        width: 95%;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        gap:20px;
+        height: fit-content;
+        background-color: rgba(143, 143, 143, 0.082);
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+        border-radius: 130px;
+    }
+
+    &__title{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    &__symbols{
+        font-size: 8rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+// .project{
+//     display: flex;
+//     flex-direction: column;
+//     gap:80px;
+
+//     &__title{
+//         font-size: 3vw;
+//         text-align: center;
+//     }
+
+//     &__cards{
+//         display: grid;
+//         grid-template-columns: repeat(3, 1fr);
+//         gap: 70px;
+//     }
+// }
+
+
+
+
+
+
+
+
+// <div className='project'>
+// <h2 className='project__title'>Mes projets</h2>
+// <div className='project__cards'>
+//     <CardsProject/>
+//     <CardsProject/>
+//     <CardsProject/>
+//     <CardsProject/>
+//     <CardsProject/>
+//     <CardsProject/>
+// </div> 
+// </div>

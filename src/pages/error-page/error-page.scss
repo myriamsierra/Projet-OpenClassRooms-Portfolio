@@ -1,0 +1,37 @@
+.error{
+    margin-top: 150px;
+
+    &__title{
+        text-align: center;
+        font-size: 15vw;
+    }
+
+    &__subtitle{
+        text-align: center;
+        font-size: 4vw;
+    }
+
+    &__button{
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 100px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+// <div >
+//             <section className='error'>
+//                 <h2 className='error__title'>404</h2>
+//                 <h3 className='error__subtitle'>page non trouvée</h3>
+//                 <p className='about__button'> retour accueil</p>
+//             </section>
+//         </div>

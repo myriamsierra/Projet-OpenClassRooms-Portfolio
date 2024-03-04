@@ -1,0 +1,70 @@
+/* contact.scss */
+.contact {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: auto;
+    
+    &__title {
+        font-size: 3vw;
+        text-align: center;
+    }
+
+    &__form{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap:25px;
+    }
+    &__form *{
+        background-color: transparent;
+        border: none;
+    }
+
+    &__name {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__name *{
+        width: 45%;
+        background-color: rgba(228, 228, 228, 0.37);
+    }
+
+    &__message {
+        width: 100%;
+        height: 100px;
+        margin: auto;
+        margin-top: 30px;
+        background-color: rgba(228, 228, 228, 0.37);
+    }
+
+    &__button {
+        margin: 50px auto;
+        width: 20%;
+        padding: 5px 10px;
+        background-color: rgba(228, 228, 228, 0.37);
+    }
+}
+
+.dark-mode-contact button,
+.dark-mode-contact textarea,
+.dark-mode-contact input {
+    color:white;
+    background-color: rgb(44, 44, 44);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.158); 
+    backdrop-filter: blur(5px); 
+}
+
+

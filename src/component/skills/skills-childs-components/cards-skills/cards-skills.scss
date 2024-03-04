@@ -1,0 +1,67 @@
+.skill-cards{
+  
+  &__contenair{
+    width: 240px;
+    height: 294px;
+    perspective: 900px;
+  }
+
+  .skill-cards__contenair:hover > .skill-cards__card {
+    cursor: pointer;
+    transform: rotateY(180deg) rotateZ(180deg);
+  }
+
+  &__card {
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+    border-radius: 2rem;
+  }
+
+  &__recto--icons{
+    margin-top: 30px;
+    font-size: 5rem;
+  }
+
+  &__recto, &__verso {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+                        rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+                        rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    backface-visibility: hidden;
+    color: aliceblue;
+    background: rgb(82, 190, 190)
+  }
+
+  &__recto, &__verso {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__verso {
+    transform: rotateY(180deg) rotateZ(180deg);
+  }
+
+  &__verso--liste{
+    font-size: 1.6rem;
+  }
+
+  &__verso--title, &__recto--title {
+    font-size: 28px;
+    font-weight: bold;
+  }
+}
+
+ 
+
+
+

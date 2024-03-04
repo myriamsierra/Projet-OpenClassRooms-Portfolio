@@ -1,0 +1,36 @@
+.container_mouse{
+    margin-top: 110px;
+    opacity: 0.3;
+
+}
+
+.mouse-btn {
+    margin: 5px auto;
+    width: 20px;
+    height: 40px;
+    border: 3px solid rgba(122, 122, 124, 0.918);
+    border-radius: 20px;
+    display: flex;
+  }
+  
+  .mouse-scroll {
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(170deg, rgba(122, 122, 124, 0.918), rgb(123, 124, 124));
+    border-radius: 50%;
+    margin: auto;
+    animation: scrolling13 1s linear infinite;
+  }
+  
+  @keyframes scrolling13 {
+    0% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateY(10px);
+    }
+  }
