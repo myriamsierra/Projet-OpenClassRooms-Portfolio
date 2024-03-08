@@ -6,7 +6,7 @@ import './button-dark-mode.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
 
-const DarkModeButton = ({onClick}) => {
+const DarkModeButton = () => {
     
     //dark mode theme
     const { darkMode, setDarkMode } = useTheme();
@@ -28,7 +28,7 @@ const DarkModeButton = ({onClick}) => {
     };
 
     return (
-        <div className={classes.button} onClick={onClick}>
+        <div className={classes.button}>
             <input
                 type="checkbox" id="input" className={classes.toggle}
                 onChange= {darkModeFunction}

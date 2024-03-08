@@ -1,3 +1,5 @@
+//CLEAN SCSS OK 
+
 @import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 .logo {
@@ -6,19 +8,17 @@
     font-weight: 700;
     color: rgb(2, 167, 179);
     transition: transform 0.8s ease; 
-    position: relative;
     transition-duration: 100ms;
-    width: fit-content;
-    height: fit-content;
-
-    &__darkmode {
-        color: white;
-    }
 
     &:hover{
         text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.432);
         transform: translateX(8px); 
         transition: transform 0.8s ease;
+    }
+
+    //DARKMODE
+    &__darkmode {
+        color:rgb(252, 183, 34);
     }
 }
 

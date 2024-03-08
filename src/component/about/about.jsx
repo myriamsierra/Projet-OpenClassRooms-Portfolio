@@ -1,17 +1,19 @@
 //CLEAN CODE OK
 
 import React from 'react';
+import { useTheme } from '../../utils/dark-mode/dark-mode';
 import Title from './../home/home-childs-components/title/title';
 import Text from './../home/home-childs-components/text/text';
 import SocialLink from './../home/home-childs-components/social-links/social-links';
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons/faLinkedin';
-import buttonSound from './../../assets/sound/click-21156.mp3';
-import { soundEffect } from './../../utils/function/sound-effect';
 import Symbols from '../home/home-childs-components/symbols/symbols';
 import './about.scss';
 
 const About = () => {
+
+     //darkmode theme
+     const { darkMode } = useTheme();
    
     //classe scss modulable
     const classes = {
@@ -21,7 +23,9 @@ const About = () => {
         titleBox : 'about__title--contenair',
         title : 'about-title',
         link : 'about__link',
-        symbol :'about__symbol'
+        symbol :'about__symbol',
+        picture: darkMode ? 'about__picture about__picture__darkmode' : 'about__picture',
+        text:'about__text'
     }
 
     //data modulable(a mettre en json + tard)
@@ -29,8 +33,8 @@ const About = () => {
     const text = "Je suis une développeuse web résidant à Marseille, passionnée par le développement web depuis deux ans. Avec une formation débutée sur OpenClassrooms en août 2023, je m'inspire de l'univers des jeux vidéo et du cinéma pour créer des expériences web uniques. Découvrez mes projets sur GitHub et n'hésitez pas à consulter mon profil LinkedIn pour en savoir plus sur mon parcours professionnel."
     const symbol ="/"
     const socialLinksData = [
-        { text: "linkedin", icon: faLinkedin, link: "https://www.linkedin.com/in/myriam-sierra-507436264/"},
-        { text: "github", icon: faGithub, link: "https://github.com/myriamsierra"}, 
+        { text: "Mon Linkedin", icon: faLinkedin, link: "https://www.linkedin.com/in/myriam-sierra-507436264/"},
+        { text: "Mon Github", icon: faGithub, link: "https://github.com/myriamsierra"}, 
     ];
     
 
@@ -38,17 +42,20 @@ const About = () => {
         <div className={classes.about}>
             <div className={classes.cards}>
                 <div className= {classes.link}>
-                    <SocialLink data={socialLinksData[0]} onClick={() => soundEffect(buttonSound)} target="_blank"/>
-                    <SocialLink data={socialLinksData[1]} onClick={() => soundEffect(buttonSound)} target="_blank"/>
+                    <SocialLink data={socialLinksData[0]}  />
+                    <SocialLink data={socialLinksData[1]}  />
+
                 </div>
                 <div className={classes.content}>
                     <div className={classes.titleBox}>
                     <Symbols symbols={symbol} symbolssize={classes.symbol}/>
                         <Title className={classes.title} h2={title}/>    
                     </div>
-                    <Text text={text}/>
+                    <div className={classes.text}>
+                        <Text text={text}/>
+                    </div>
                 </div>
-                
+                <div className={classes.picture}></div>  
             </div>
         </div>
     );

@@ -1,3 +1,5 @@
+//CLEAN CODE OK
+
 import React from 'react';
 import Cards from './../skills-childs-components/cards-skills/cards-skills';
 import Symbols from '../../home/home-childs-components/symbols/symbols';
@@ -8,8 +10,6 @@ import { faFileArrowDown } from '@fortawesome/free-solid-svg-icons';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
 import { faBrush } from '@fortawesome/free-solid-svg-icons';
 import { faMugHot } from '@fortawesome/free-solid-svg-icons';
-import buttonSound from './../../../assets/sound/click-21156.mp3';
-import { soundEffect } from './../../../utils/function/sound-effect';
 import './skills.scss';
 
 const Skills = () => {
@@ -19,10 +19,7 @@ const Skills = () => {
     const symbol2 = "}";
     const title = "Mes compétences";
 
-    const socialLinksData = [
-        { text: "cv", icon: faFile, link: "https://www.linkedin.com/in/myriam-sierra-507436264/" },
-        { text: "cv", icon: faFileArrowDown, link: "https://github.com/myriamsierra" },
-    ];
+  
 
     const cardsData = [
         {
@@ -65,13 +62,9 @@ const Skills = () => {
                     {cardsData.map((data, index) => (
                         <Cards key={index} 
                             titleRecto={data.titleRecto} titleVerso={data.titleVerso} textVerso={data.textVerso}
-                            textRecto={data.textRecto} // Ajoutez cette ligne
+                            textRecto={data.textRecto} 
                         />
                     ))}
-                    </div>
-                    <div className= {classes.link}>
-                        <SocialLink data={socialLinksData[0]} onClick={() => soundEffect(buttonSound)} target="_blank"/>
-                        <SocialLink data={socialLinksData[1]} onClick={() => soundEffect(buttonSound)} target="_blank"/>
                     </div>
                 </div>
             </div>

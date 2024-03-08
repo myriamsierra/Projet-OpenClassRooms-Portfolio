@@ -1,11 +1,11 @@
 //CLEAN CODE OK
 
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import { useTheme } from '../../../../utils/dark-mode/dark-mode';
 import './navbar.scss'; 
 
-const Navbar = ({onClick}) => {
+const Navbar = () => {
 
     //darkmode thème
     const { darkMode} = useTheme();
@@ -19,10 +19,10 @@ const Navbar = ({onClick}) => {
     return (
         <div>
             <nav className={classes.navbar}>
-                <Link to='#about' className={classes.link}  onClick={onClick}>A propos</Link>
-                <Link to='#skills' className={classes.link} onClick={onClick}>Competences</Link>
-                <Link to='#projects' className={classes.link} onClick={onClick}>Projets</Link>
-                <Link to='#contact' className={classes.link} onClick={onClick}>Contact</Link>
+                <Link smooth to='#about' className={classes.link}>A propos</Link>
+                <Link smooth to='#skills' className={classes.link}>Competences</Link>
+                <Link smooth to='#projects' className={classes.link}>Projets</Link>
+                <Link smooth to='#contact' className={classes.link}>Contact</Link>
             </nav>
         </div>
     );

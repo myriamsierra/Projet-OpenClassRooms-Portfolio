@@ -1,8 +1,8 @@
 .skill-cards{
   
   &__contenair{
-    width: 240px;
-    height: 294px;
+    width: 270px;
+    height: 194px;
     perspective: 900px;
   }
 
@@ -14,7 +14,7 @@
   &__card {
     height: 100%;
     width: 100%;
-    background-color: aliceblue;
+    background-color: transparent;
     position: relative;
     transition: transform 1500ms;
     transform-style: preserve-3d;
@@ -31,20 +31,18 @@
     width: 100%;
     border-radius: 2rem;
     position: absolute;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
-                        rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
-                        rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
     backface-visibility: hidden;
-    color: aliceblue;
-    background: rgb(82, 190, 190)
+    color: rgb(136, 136, 136);
+    background-color: transparent;
   }
 
   &__recto, &__verso {
     display: flex;
-    justify-content: center;
+    justify-content:center;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
   }
 
   &__verso {
@@ -52,12 +50,21 @@
   }
 
   &__verso--liste{
-    font-size: 1.6rem;
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+
+    &__darkmode{
+      color: rgb(255, 255, 255);
+    }
   }
 
-  &__verso--title, &__recto--title {
+  &__recto--title {
     font-size: 28px;
-    font-weight: bold;
+    color: rgb(0, 141, 160);
+
+    &__darkmode {
+      color: rgb(160, 85, 0);
+    }
   }
 }
 

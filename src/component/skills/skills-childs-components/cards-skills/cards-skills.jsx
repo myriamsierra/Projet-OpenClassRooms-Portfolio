@@ -1,8 +1,12 @@
 import React from 'react';
 import './cards-skills.scss'
+import { useTheme } from '../../../../utils/dark-mode/dark-mode';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Cards = ({titleRecto,textRecto,textVerso}) => {
+
+  //darkmode theme
+  const { darkMode } = useTheme();
 
   //classes scss modulable
   const classes = {
@@ -10,13 +14,12 @@ const Cards = ({titleRecto,textRecto,textVerso}) => {
     contenair : "skill-cards__contenair",
     card : "skill-cards__card",
     recto : "skill-cards__recto",
-    frontheading :"skill-cards__recto--title",
+    frontheading :darkMode ? 'skill-cards__recto--title skill-cards__recto--title__darkmode' : 'skill-cards__recto--title',
     verso : "skill-cards__verso",
-    backheading :"skill-cards__verso--title",
     icon :"skill-cards__recto--icons",
-    liste : "skill-cards__verso--liste",
+    liste  :darkMode ? 'skill-cards__verso--liste skill-cards__verso--liste__darkmode' : 'skill-cards__verso--liste',
   }
-
+ 
 
 
   return (
@@ -30,7 +33,7 @@ const Cards = ({titleRecto,textRecto,textVerso}) => {
           <div className={classes.verso}>
             <ul>
               {textVerso.map((skill, index) => (
-                <li key={index} className={classes.liste}>{skill}</li>
+                <li key={index} className={classes.liste}>[ {skill} ]</li>
               ))}
             </ul>
           </div>
