@@ -16,9 +16,9 @@
     }
 
     &__toggle:checked +  &__label {
-      background-color: rgb(109, 109, 109);
+      background-color: rgb(49, 49, 49);
       box-sizing:unset;
-      box-shadow: inset 1px 2px 5px 5px rgba(0, 0, 0, 0.5);
+      box-shadow: inset 1px 2px 5px 5px rgba(0, 0, 0, 0.205);
     }
 
     &__toggle:checked + &__label &__switch {

@@ -35,6 +35,10 @@
     backface-visibility: hidden;
     color: rgb(136, 136, 136);
     background-color: transparent;
+
+    &__darkmode, &__darkmode{
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 48px 100px 0px;
+    } 
   }
 
   &__recto, &__verso {

@@ -9,6 +9,7 @@ import SocialLink from '../home-childs-components/social-links/social-links';
 import { faPlus } from '@fortawesome/free-solid-svg-icons/faPlus';
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons/faPaperPlane';
 import { HashLink as Link } from 'react-router-hash-link';
+import ImgTest from './../../../assets/images/10740609.png'
 import './home.scss';
 
 
@@ -52,7 +53,7 @@ const Home = () => {
                         </div>
                         <Text text={text}/>
                     </div>
-                    <div className={classes.picture}></div>  
+                    <div className={classes.picture}><img src={ImgTest} alt="bla"/></div>  
                 </div>
                 <div className= {classes.link}>
                     <Link smooth to='#contact'> <SocialLink data={socialLinksData[0]}/></Link>

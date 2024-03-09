@@ -1,38 +1,59 @@
 .project-cards{
-    width: 85%;
+    width: 75%;
     height: 150px;
-    border-radius: 40px;
-    background-color: transparent;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
-    border: 1px solid rgb(0, 197, 171);
-    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
     transition: all 0.2s;
     position: relative;
     cursor: pointer;
     overflow: hidden;
-   
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.349);
 
+    &__darkmode{
+        background-color: rgb(39, 39, 39);
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    }
+   
     &:hover {
         box-shadow: 0px 0px 20px -5px #00000048;
-        transform: translateY(-15px);
-        
+        transform: translateX(-60px);   
     }
-    
-    &__title{
-        color:rgb(0, 175, 175);
-        font-weight: 500;
-        text-align: start;  
+
+    &__imagebox{
+        max-width: 350px; 
+        height: auto; /* Permet à l'image de conserver son ratio d'aspect */
+        background-color: white;
+        border-left: 15px solid rgb(32, 180, 185);
+
+        &__darkmode{
+            border-left: 15px solid rgb(255, 189, 6);
+        }
     }
 
     &__image{
-        width: 30%;
-        margin: auto;
+        width: 100%;
+        object-fit: contain; /* Remplacez 'cover' par 'contain' */
+        object-position: top;
+    }
+    
+    &__title{
+        color:rgb(65, 65, 65);
+        font-weight: 500;
+        text-align: start; 
+        font-size: 1.3rem; 
+
+        &__darkmode{
+            color:black;
+            font-weight: 500;
+        }
     }
 
     &__description{
         font-weight: 400;
         text-align: start;
-        padding: 5px 0px;
+        padding: 5px 20px 10px 15px;
     }
 
     &__overlay{
@@ -42,28 +63,31 @@
         width: 100%;
         height: 100%;
         opacity: 0;
-        background-color: rgba(7, 133, 150, 0.37);
-        transition: opacity 0.3s ease;
-        pointer-events: none;
-        border-radius: 25px;
+        background-color: rgb(0, 123, 128);
+        transition: opacity 0.8s ease;
+        pointer-events: none; 
+
+        &__darkmode{
+            background-color: rgb(212, 127, 0);
+        }
     }
 
     &:hover .project-cards__overlay {
         opacity: 1;
         pointer-events: auto;
-      }
+    }
 
-    &__button{
-        width: 110px;
+    &__button{  
         position: absolute;
         top: 50%;
-        left: 50%;
+        right: 1.5%;
         font-weight: 400;
-        padding: 10px 15px;
-        font-size: 0.8rem;
-        transform: translate(-50%, -50%);
-        background-color: #ffffff;
+        background-color: transparent;
+        font-size: 1.5rem;
         border-radius: 50px;
+        padding: 10px 20px;
+        transform: translate(-50%, -50%);
+        color:rgb(132, 1, 172);  
         display: flex;
         align-items: center;
         justify-content: center;
@@ -75,16 +99,42 @@
         transform-origin: 0 0;
         box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.082);
         transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.342) 0px 10px 50px;
+        
+        &__darkmode{
+            background-color: rgb(31, 31, 31);
+            color:rgb(255, 255, 255);
+            box-shadow: rgba(0, 0, 0, 0.527) 0px 10px 50px;
+        }
     }
 
     &:hover &__button {
         opacity: 1;
         scale: 1;
-      }
+    }
     
-      &:active{
-        transform:scale(0.9)
-      }
+    &:active{
+    transform: translateX(80px);
+    }
 
+    &__title-box{
+        display: flex;
+        gap:10px;
+        align-items: center;
+        align-content: center;
+        padding: 15px;
+    }
+
+    &__subtitle{
+        color:rgb(2, 145, 150);
+        font-size: 0.9rem;
+        font-style: italic;
+        font-weight: 300;
+
+        &__darkmode{
+            color:orange;
+        }
+    }
 }
 

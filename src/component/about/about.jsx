@@ -8,6 +8,7 @@ import SocialLink from './../home/home-childs-components/social-links/social-lin
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons/faLinkedin';
 import Symbols from '../home/home-childs-components/symbols/symbols';
+import ImgTest from './../../assets/images/book-8357328-6649338.png';
 import './about.scss';
 
 const About = () => {
@@ -55,7 +56,7 @@ const About = () => {
                         <Text text={text}/>
                     </div>
                 </div>
-                <div className={classes.picture}></div>  
+                <div className={classes.picture}><img src={ImgTest} alt="test"/></div>  
             </div>
         </div>
     );

@@ -13,15 +13,13 @@ const Cards = ({titleRecto,textRecto,textVerso}) => {
     cards : "skill-cards",
     contenair : "skill-cards__contenair",
     card : "skill-cards__card",
-    recto : "skill-cards__recto",
+    recto  :darkMode ? 'skill-cards__recto skill-cards__recto__darkmode' : 'skill-cards__recto',
     frontheading :darkMode ? 'skill-cards__recto--title skill-cards__recto--title__darkmode' : 'skill-cards__recto--title',
-    verso : "skill-cards__verso",
     icon :"skill-cards__recto--icons",
     liste  :darkMode ? 'skill-cards__verso--liste skill-cards__verso--liste__darkmode' : 'skill-cards__verso--liste',
+    verso  :darkMode ? 'skill-cards__verso skill-cards__recto__darkmode' : 'skill-cards__verso',
   }
  
-
-
   return (
     <div className={classes.cards}>
       <div className={ classes.contenair}>

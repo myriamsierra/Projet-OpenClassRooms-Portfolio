@@ -5,8 +5,11 @@ import Title from '../../home/home-childs-components/title/title';
 import './project.scss';
 import Filters from '../project-childs-components/filter/filter';
 import ProjectCard from '../project-childs-components/cards/project-cards';
-import imgBooki from './../../../assets/images/2024-03-07_20h44_30.png';
-import imgKasa from './../../../assets/images/kasa-logo-color.png'
+import ImgBooki from './../../../assets/images/2024-03-08_18h18_32.png';
+import ImgKasa from './../../../assets/images/2024-03-08_19h30_50.png';
+import ImgMS from './../../../assets/images/2024-03-08_17h36_47.png'
+import ImgGrimoire from './../../../assets/images/2024-03-08_18h08_05.png'
+import ImgNina from './../../../assets/images/2024-03-08_18h23_09.png'
 
 const Project = () => {
     const symbol1 = "[";
@@ -25,32 +28,37 @@ const Project = () => {
     const ProjectData = [
         {
             title: "PORTFOLIO",
-            description:"blablabla",
-            image: window.location.origin + "/assets/images/herobanner.png",
+            subtitle:"/ Projet OpenClassRooms",
+            description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+            image: ImgMS,
             tags: ["Tous", "React"]
         },
         {
             title: "KASA",
-            description:"blablabla",
-            image:imgKasa,
+            subtitle:"/ Projet OpenClassRooms",
+            description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+            image:ImgKasa,
             tags: ["Tous", "React"]
         },
         {
             title: "MON VIEUX GRIMOIRE",
-            description:"blablabla",
-            image:"./../../../assets/images/5fe801e7425d875ca49397b9b3613520.jpg",
+            subtitle:"/ Projet OpenClassRooms",
+            description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+            image:ImgGrimoire,
             tags: ["Tous", "Backend"]
         },
         {
             title: "BOOKI",
-            description:"blablabla",
-            image: imgBooki,
+            subtitle:"/ Projet OpenClassRooms",
+            description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+            image: ImgBooki,
             tags: ["Tous", "Landing page"]
         },
         {
             title: "NINA CARDUCCI",
-            description:"blablabla",
-            image:"./../../../assets/images/Booki.png",
+            subtitle:"/ Projet OpenClassRooms",
+            description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+            image:ImgNina,
             tags: ["Tous", "Seo"]
         },
     ];
@@ -81,7 +89,7 @@ const Project = () => {
                     </div>
                     <div className={classes.cards}>
                         {ProjectData.map((data, index) => (
-                            <ProjectCard key={index} title={data.title} image={data.image} description={data.description} />
+                            <ProjectCard key={index} title={data.title} image={data.image} description={data.description} subtitle={data.subtitle}/>
                         ))}
                     </div>
                 </div>

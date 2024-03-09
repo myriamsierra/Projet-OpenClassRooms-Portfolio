@@ -9,6 +9,10 @@
         transition-timing-function: cubic-bezier(0.85, 0.8, 0.85, 1);
         transition-duration: 100ms; 
         cursor: pointer;
+
+        &__darkmode{
+            color:rgb(179, 80, 0);
+        }
     }
 
     &__tags:focus,
