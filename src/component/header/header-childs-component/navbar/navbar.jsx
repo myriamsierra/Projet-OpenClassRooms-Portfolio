@@ -19,10 +19,10 @@ const Navbar = () => {
     return (
         <div>
             <nav className={classes.navbar}>
-                <Link smooth to='#about' className={classes.link}>A propos</Link>
-                <Link smooth to='#skills' className={classes.link}>Competences</Link>
-                <Link smooth to='#projects' className={classes.link}>Projets</Link>
-                <Link smooth to='#contact' className={classes.link}>Contact</Link>
+                <Link smooth to='/#about' className={classes.link}>A propos</Link>
+                <Link smooth to='/#skills' className={classes.link}>Competences</Link>
+                <Link smooth to='/#projects' className={classes.link}>Projets</Link>
+                <Link smooth to='/#contact' className={classes.link}>Contact</Link>
             </nav>
         </div>
     );

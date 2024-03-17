@@ -45,8 +45,8 @@
         font-size: 1.3rem; 
 
         &__darkmode{
-            color:black;
-            font-weight: 500;
+            color:rgb(0, 0, 0);
+            font-weight: 700;
         }
     }
 
@@ -54,6 +54,8 @@
         font-weight: 400;
         text-align: start;
         padding: 5px 20px 10px 15px;
+        color:rgb(117, 117, 117);
+        font-weight:500 ;
     }
 
     &__overlay{

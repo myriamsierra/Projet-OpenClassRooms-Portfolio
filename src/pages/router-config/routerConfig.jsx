@@ -8,6 +8,7 @@ import About from '../../component/about/about';
 import Skills from '../../component/skills/skills/skills';
 import Project from '../../component/project/project/project';
 import Contact from '../../component/contact/contact/contact';
+import ProjectPage from '../../pages/project-page/project-page';
 
 
 const RouterConfig = () => (
@@ -15,6 +16,7 @@ const RouterConfig = () => (
     <Header/>
     <Routes>
       <Route path="/" element={<MainHomePage/>}/> 
+      <Route path="/Projet/:id" element={<ProjectPage />} />
       <Route path="/*" element={<ErrorPage/>} />
       <Route path="/about" element={<About/>} />
       <Route path="/skills" component={Skills} />

@@ -12,6 +12,7 @@
     "@testing-library/user-event": "^13.5.0",
     "framer-motion": "^11.0.6",
     "gsap": "^3.12.5",
+    "nodemailer": "^6.9.12",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-modal": "^3.16.1",

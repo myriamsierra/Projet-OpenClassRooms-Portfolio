@@ -1,70 +1,201 @@
-/* contact.scss */
-.contact {
-    width: 900px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    margin: auto;
-    
-    &__title {
-        font-size: 3vw;
-        text-align: center;
+.contact{
+    width: 100%;
+    margin-top: 0px;
+
+    &__box{
+        width: 60%;
+        margin: auto;
+        background-color: rgba(143, 143, 143, 0.082);
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+        border-radius: 30px;
+        padding: 20px;
+    }
+
+    &__symbol{
+        font-size: 8rem;
+    }
+
+    &__tittle-box{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap:10px;   
+        justify-content: center;
     }
 
     &__form{
-        width: 80%;
-        margin: auto;
+        margin:40px 80px;
         display: flex;
         flex-direction: column;
-        gap:25px;
-    }
-    &__form *{
-        background-color: transparent;
-        border: none;
-    }
+        justify-content: center;
+        gap:30px;
 
-    &__name {
-        margin-top: 50px;
-        display: flex;
-        justify-content: space-between;
-    }
+        &__info{
+            display: flex;
+            justify-content: space-between;
+        }
 
-    &__name *{
-        width: 45%;
-        background-color: rgba(228, 228, 228, 0.37);
-    }
+        &__info *{
+            width: 47%;  
+        }
 
-    &__message {
-        width: 100%;
-        height: 100px;
-        margin: auto;
-        margin-top: 30px;
-        background-color: rgba(228, 228, 228, 0.37);
-    }
+        &__message{
+            height: 120px;
+        }
 
-    &__button {
-        margin: 50px auto;
-        width: 20%;
-        padding: 5px 10px;
-        background-color: rgba(228, 228, 228, 0.37);
+        &__info *,
+        &__message,
+        &__button{
+            padding: 10px 20px;
+            border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.486);
+            font-size: 1.1rem;
+            background-color: rgba(194, 194, 194, 0.438);
+            color: black;
+            box-shadow: rgba(255, 255, 255, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+            transition-timing-function: cubic-bezier(0.85, 0.8, 0.85, 1);
+            transition-duration: 250ms; 
+        }
+
+        &__info__darkmode *,
+        &__message__darkmode,
+        .contact__form__button__darkmode{
+            color:white;
+            background-color: rgba(0, 0, 0, 0.541);
+            box-shadow: rgba(255, 255, 255, 0.158) 0px 1px 3px, rgba(0, 0, 0, 0.952) 0px 1px 2px;
+        }
+
+        &__info *:hover,&__info *:focus,
+        &__message:hover,&__message:focus{
+            background-color: rgba(46, 46, 46, 0.103);
+            scale:(1.03);
+            box-shadow: rgba(255, 255, 255, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.411) 0px 1px 2px;
+        }
+
+        &__button{
+            width: fit-content;
+            margin: auto;
+            padding: 8px 30px;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            color: rgba(12, 133, 170, 0.685);
+            font-weight: 700; 
+            background-color: rgba(255, 255, 255, 0.301);
+            box-shadow: rgba(255, 255, 255, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+            transition-timing-function: cubic-bezier(0.85, 0.8, 0.85, 1);
+            transition-duration: 100ms; 
+            cursor: pointer;
+        }
+        
+        &__button:focus,
+        &__button:hover {
+            scale: (1.3);
+            transform: translateY(-8px); 
+            transition: transform 0.8s ease;           
+        }
+
+        &__button:active {
+            scale: (0.9);
+        }
     }
+    
 }
 
-.dark-mode-contact button,
-.dark-mode-contact textarea,
-.dark-mode-contact input {
-    color:white;
-    background-color: rgb(44, 44, 44);
-}
 
-.overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.158); 
-    backdrop-filter: blur(5px); 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// /* contact.scss */
+// .contact {
+//     width: 900px;
+//     display: flex;
+//     flex-direction: column;
+//     gap: 20px;
+//     margin: auto;
+    
+//     &__title {
+//         font-size: 3vw;
+//         text-align: center;
+//     }
+
+//     &__form{
+//         width: 80%;
+//         margin: auto;
+//         display: flex;
+//         flex-direction: column;
+//         gap:25px;
+//     }
+//     &__form *{
+//         background-color: transparent;
+//         border: none;
+//     }
+
+//     &__name {
+//         margin-top: 50px;
+//         display: flex;
+//         justify-content: space-between;
+//     }
+
+//     &__name *{
+//         width: 45%;
+//         background-color: rgba(228, 228, 228, 0.37);
+//     }
+
+//     &__message {
+//         width: 100%;
+//         height: 100px;
+//         margin: auto;
+//         margin-top: 30px;
+//         background-color: rgba(228, 228, 228, 0.37);
+//     }
+
+//     &__button {
+//         margin: 50px auto;
+//         width: 20%;
+//         padding: 5px 10px;
+//         background-color: rgba(228, 228, 228, 0.37);
+//     }
+// }
+
+// .dark-mode-contact button,
+// .dark-mode-contact textarea,
+// .dark-mode-contact input {
+//     color:white;
+//     background-color: rgb(44, 44, 44);
+// }
+
+// .overlay {
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     background-color: rgba(0, 0, 0, 0.158); 
+//     backdrop-filter: blur(5px); 
+// }
 
 

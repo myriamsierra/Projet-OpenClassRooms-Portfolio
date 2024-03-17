@@ -26,7 +26,8 @@ const About = () => {
         link : 'about__link',
         symbol :'about__symbol',
         picture: darkMode ? 'about__picture about__picture__darkmode' : 'about__picture',
-        text:'about__text'
+        text:'about__text',
+        illustration:'about__illustration'
     }
 
     //data modulable(a mettre en json + tard)
@@ -56,7 +57,7 @@ const About = () => {
                         <Text text={text}/>
                     </div>
                 </div>
-                <div className={classes.picture}><img src={ImgTest} alt="test"/></div>  
+                <div className={classes.picture}><img src={ImgTest} alt="test" className={classes.illustration}/></div>  
             </div>
         </div>
     );

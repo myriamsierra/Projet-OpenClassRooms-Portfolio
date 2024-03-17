@@ -17,13 +17,12 @@ button,a,input{
 
 body{
     margin: 0;
-    
     background: 
     radial-gradient(circle, rgba(69, 224, 172, 0.37) 0%,
     rgba(247, 119, 0, 0.233) 49%, 
     rgba(0, 238, 255, 0.205) 75%, 
-     rgba(0, 238, 255, 0.295) 100%);
-      color:rgb(105, 105, 105)
+    rgba(0, 238, 255, 0.295) 100%);
+    color:rgb(105, 105, 105);
 }
 
 main{
@@ -39,6 +38,9 @@ h2{
     font-weight: 400;
 }
 
+a {
+    text-decoration: none
+}
 
 //DARKMODE
 .body-dark-mode{

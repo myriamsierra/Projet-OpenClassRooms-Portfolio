@@ -1,25 +1,27 @@
 import React from 'react';
+import { useTheme } from './../../utils/dark-mode/dark-mode';
 import './footer.scss';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelopeOpen } from '@fortawesome/free-solid-svg-icons';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faVolumeXmark , faVolumeHigh } from '@fortawesome/free-solid-svg-icons';
+
 
 const Footer = () => {
+
+    //darkmode theme
+    const { darkMode } = useTheme();
+
+    //classes scss modulable
+    const classes = {
+        footer : darkMode ? 'footer footer__darkmode' : 'footer',
+        copyright : darkMode ? 'footer__copyright footer__copyright__darkmode' : 'footer__copyright'
+    }
+
     return (
         <div>
-            <footer className='footer'>
-                <div className='footer__social-icons'>
-                    <span className='footer__icon'><FontAwesomeIcon icon={faGithub} /></span>
-                    <span className='footer__icon'><FontAwesomeIcon icon={faEnvelopeOpen} /></span>
-                    <span className='footer__icon'><FontAwesomeIcon icon={faLinkedin} /></span>
-                </div>
-                <p className='footer__copyright'>© Myriam Sierra | 2024.</p>
-                <p className='footer__button'><FontAwesomeIcon icon={faVolumeHigh} /><FontAwesomeIcon icon={faVolumeXmark} /></p>
+            <footer className={classes.footer}> 
+                <p className={classes.copyright}>© Myriam Sierra | 2024.</p> 
             </footer>
         </div>
     );
 }
 
 export default Footer;
+

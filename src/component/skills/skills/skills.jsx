@@ -7,16 +7,18 @@ import Title from '../../home/home-childs-components/title/title';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
 import { faBrush } from '@fortawesome/free-solid-svg-icons';
 import { faMugHot } from '@fortawesome/free-solid-svg-icons';
+import { useTheme } from '../../../utils/dark-mode/dark-mode';
+import ImgTest from './../../../assets/images/3d-gear-idea-settings-isolated-render-illustration-png.png'
 import './skills.scss';
 
 const Skills = () => {
+
+    const { darkMode } = useTheme();
 
     //data modulable (a mettre en format json+tard)
     const symbol1 = "{";
     const symbol2 = "}";
     const title = "Mes compétences";
-
-  
 
     const cardsData = [
         {
@@ -43,7 +45,9 @@ const Skills = () => {
         title : 'skills__title',
         cards :'skills__cards',
         symbol: 'skills__symbols',
-        link: 'skills__link'
+        link: 'skills__link',
+        picture: darkMode ? 'skills__picture skills__picture__darkmode' : 'skills__picture',
+        illustration:'skills__illustration'
     };
 
     return (
@@ -63,6 +67,7 @@ const Skills = () => {
                         />
                     ))}
                     </div>
+                    <div className={classes.picture}><img src={ImgTest} className={classes.illustration} alt="bla"/></div>  
                 </div>
             </div>
         </div>

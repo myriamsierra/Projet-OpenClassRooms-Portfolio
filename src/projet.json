@@ -1,0 +1,96 @@
+[
+    {
+        "id":"1545575",
+        "title": "PORTFOLIO",
+        "subtitle": "/ Projet OpenClassRooms",
+        "subtext" :"Project réalisé dans le cadre de la formation developeur(se) OpenclassRooms",
+        "description": "Projet de création et de publication en ligne de mon portfolio de développeuse web. Ce projet me permet de mettre en avant mon parcours, mes compétences et mes réalisations en développement à travers un site professionnel.",
+        "image": "https://github.com/myriamsierra/ImgPortfolio/blob/main/2024-03-08_17h36_47.png?raw=true",
+        "tag": ["Tous", "React"],
+        "text":[
+            "Dans le cadre de ma formation en développement web, j'ai entrepris la création et la publication en ligne de mon propre portfolio, une étape cruciale pour présenter mon parcours et mes compétences de manière professionnelle. Pour ce faire, j'ai opté pour l'utilisation de technologies modernes telles que React.js et diverses bibliothèques pour construire le projet.",
+            "L'intégration de React.js dans mon portfolio m'a permis de créer une interface utilisateur dynamique et interactive, offrant une expérience utilisateur fluide et attrayante. De plus, j'ai utilisé différentes bibliothèques et composants React pour optimiser le développement et ajouter des fonctionnalités avancées à mon site.",
+            "Grâce à l'utilisation de ces technologies avancées, j'ai pu non seulement créer un portfolio esthétique et fonctionnel, mais aussi démontrer ma maîtrise des outils et des frameworks modernes du développement web. Ce projet représente ainsi une opportunité unique de mettre en pratique mes compétences acquises et de me positionner comme un développeur web compétent et innovant sur le marché professionnel."
+        ],
+        "techno": ["Sass", "React","Figma","Seo","React Router","Veille"],
+        "links": [
+            { "text": "Voir sur Github", "icon": "faGithub", "link": "https://github.com/myriamsierra/portfoliov2"}
+        ]
+    },
+    {
+        "id":"2578757",
+        "title": "KASA",
+        "subtitle": "/ Projet OpenClassRooms",
+        "subtext" :"Project réalisé dans le cadre de la formation developeur(se) OpenclassRooms",
+        "description": "Dans ce projet, j'utilise React et React Router pour développer une application web de location immobilière, en mettant en œuvre également SASS pour la gestion du CSS. Cela me permet d'améliorer mes compétences en développement front-end avec des outils modernes et efficaces.",
+        "image": "https://github.com/myriamsierra/ImgPortfolio/blob/main/2024-03-08_17h58_26.png?raw=true",
+        "tag": ["Tous", "React"],
+        "text":[
+            "Dans ce projet, j'ai développé une application web de location immobilière en utilisant React et React Router. Mon rôle était de concevoir le front-end de l'application, en mettant en œuvre la logique de présentation des données et en créant des composants réactifs. En suivant les maquettes Figma et en utilisant des données simulées, j'ai travaillé sur le développement front-end en respectant des directives de qualité de code.",
+            "La maîtrise de React et React Router a été essentielle, renforçant mes compétences dans le développement web moderne. J'ai également appris à utiliser SASS pour gérer le CSS et à implémenter des animations CSS, améliorant ainsi l'expérience utilisateur. Ces compétences m'ont permis de créer une application web dynamique et visuellement attrayante, répondant aux standards de l'industrie."
+        ],
+        "techno": ["Sass", "React","React Router","Create React App"],
+        "links": [
+            { "text": "Voir le site", "icon": "faPlus", "link": "https://www.linkedin.com/in/myriam-sierra-507436264/"},
+            { "text": "Voir sur Github", "icon": "faGithub", "link": "https://github.com/myriamsierra/Kasa-P6-OPCR"}
+        ]
+    },
+    {
+        "id":"35778857",
+        "title": "MON VIEUX GRIMOIRE",
+        "subtitle": "/ Projet OpenClassRooms",
+        "subtext" :"Project réalisé dans le cadre de la formation developeur(se) OpenclassRooms",
+        "description": "Dans ce projet, je développe le back-end d'un site de notation de livres avec Express et MongoDB. J'implémente des opérations CRUD, un système d'authentification sécurisé, et je prends en compte les bonnes pratiques du Green Code.",
+        "image": "https://github.com/myriamsierra/ImgPortfolio/blob/main/2024-03-08_18h08_05.png?raw=true",
+        "tag": ["Tous", "Backend"],
+        "text":[
+            "Dans ce projet, j'ai développé le back-end d'un site de notation de livres, utilisant Express pour créer le serveur et MongoDB pour la base de données. J'ai implémenté les opérations CRUD pour gérer les livres et les notations, tout en assurant la sécurité des données avec un système d'authentification. Le respect des bonnes pratiques du Green Code a également été une priorité, avec une attention particulière portée à l'optimisation des images pour réduire l'empreinte écologique du site.",
+            "La maîtrise de Node.js, Express et MongoDB s'est avérée cruciale pour ce projet, me permettant de créer un back-end robuste et performant. En implémentant les opérations CRUD de manière sécurisée et en suivant une architecture MVC, j'ai acquis des compétences essentielles pour le développement back-end. De plus, la collaboration avec un développeur front-end expérimenté a enrichi mon expérience professionnelle, renforçant ainsi ma capacité à travailler en équipe sur des projets complexes."
+        ],
+        "techno": ["Express", "MongoDB","Green Code","Architecture MVC","Operation CRUD","NodeJS"],
+        "links": [
+            { "text": "Voir le site", "icon": "faPlus", "link": "https://www.linkedin.com/in/myriam-sierra-507436264/"},
+            { "text": "Voir sur Github", "icon": "faGithub", "link": "https://github.com/myriamsierra/finalP7"}
+        ]
+    },
+    {
+        "id":"4758757",
+        "title": "BOOKI",
+        "subtitle": "/ Projet OpenClassRooms",
+        "subtext" :"Project réalisé dans le cadre de la formation developeur(se) OpenclassRooms",
+        "description": "Dans ce projet, j'ai créer la page d'accueil d'une agence de voyage en utilisant HTML et CSS, en me basant sur des maquettes Figma pour mobile, tablette et desktop ainsi que sur des images et des notes de synthèse.",
+        "image": "https://github.com/myriamsierra/ImgPortfolio/blob/main/2024-03-08_18h18_32.png?raw=true",
+        "tag": ["Tous", "Landing page"],
+        "text":[
+            "Dans ce projet, j'ai créé la page d'accueil d'une agence de voyage en utilisant HTML et CSS. À partir des maquettes Figma pour mobile, tablette et desktop ainsi que des images fournies, j'ai intégré une interface responsive pour assurer une expérience utilisateur cohérente sur tous les appareils. En écrivant mon propre code HTML et CSS plutôt que de simplement utiliser l'outil de code de Figma, j'ai acquis une compréhension approfondie de la structuration et de la stylisation du code pour répondre aux exigences de design.",
+            "La capacité à créer des interfaces web responsives est essentielle dans le développement web moderne. En développant ce projet, j'ai renforcé mes compétences en design responsive, ce qui me permettra de devenir un développeur front-end compétent. En plus d'intégrer des maquettes avec précision, j'ai appris à configurer un environnement de développement efficace et à versionner mon projet avec Git et Github, des compétences indispensables pour tout professionnel du développement web."
+        ],
+        "techno": ["HTML", "CSS","Responsive"],
+        "links": [
+            { "text": "Voir le site", "icon": "faPlus", "link": "https://www.linkedin.com/in/myriam-sierra-507436264/"},
+            { "text": "Voir sur Github", "icon": "faGithub", "link": "https://github.com/myriamsierra/Booki-P2"}
+        ]
+    },
+    {
+        "id":"5758757",
+        "title": "NINA CARDUCCI",
+        "subtitle": "/ Projet OpenClassRooms",
+        "subtext" :"Project réalisé dans le cadre de la formation developeur(se) OpenclassRooms",
+        "description": "Dans ce projet, j'ai travaillé sur l'optimisation d'un site web pour une photographe. Mon objectif est de débugger les problèmes de chargement et d'optimiser le référencement (SEO) du site, en utilisant des outils comme Lighthouse ou Wave.",
+        "image": "https://github.com/myriamsierra/ImgPortfolio/blob/main/2024-03-08_18h23_09.png?raw=true",
+        "tag": ["Tous", "Seo"],
+        "text":[
+            "Dans ce projet, j'ai travaillé sur l'optimisation du référencement d'un site en améliorant sa performance et son accessibilité. J'ai commencé par identifier les problèmes de chargement et de référencement en utilisant des outils tels que Lighthouse et Wave pour évaluer les performances actuelles du site. Ensuite, j'ai proposé des recommandations pour améliorer la vitesse de chargement, la structure du code et le référencement, que j'ai appliquées en modifiant le code du site. Mon objectif était d'améliorer les performances et l'accessibilité du site pour un meilleur référencement sur les moteurs de recherche.",
+            "L'optimisation du référencement (SEO) et de l'accessibilité sont des compétences cruciales dans le développement web moderne. En réalisant ce projet, j'ai renforcé mes compétences en analyse et en amélioration des performances d'un site, ce qui contribuera directement à l'expérience utilisateur et à la satisfaction des clients. En fournissant un rapport illustrant les résultats avant et après les modifications, j'ai démontré l'impact positif de mon travail sur le référencement et l'accessibilité du site.",
+            "Ce projet pour Nina Carducci, une photographe, m'a permis de mettre en pratique mes connaissances en optimisation SEO dans un contexte professionnel. En répondant aux besoins spécifiques de Nina, comme l'optimisation des images, la correction des bugs dans le code et la mise en place du référencement local, j'ai contribué à améliorer la visibilité et la performance de son site web."
+        ],
+        "techno": ["Lighthouse", "wave","accesibilité","Seo","Debug","schema.org","javascript"],
+        "links": [
+            { "text": "Voir le site", "icon": "faPlus", "link": "https://www.linkedin.com/in/myriam-sierra-507436264/"},
+            { "text": "Voir sur Github", "icon": "faGithub", "link": "https://github.com/myriamsierra/Nina-Carducci-p5"}
+        ]
+    }
+]
+
+
+

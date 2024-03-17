@@ -27,7 +27,8 @@ const Home = () => {
         link : 'home__link',
         symbol :'home__symbol',
         picture: darkMode ? 'home__picture home__picture__darkmode' : 'home__picture',
-        box:'home__box'
+        box:'home__box',
+        illustration:'home__illustration'
     }
 
     //data modulable(a mettre en json + tard)
@@ -36,6 +37,7 @@ const Home = () => {
     const title = "Myriam Sierra";
     const subtitle = "Développeuse frontend junior"
     const text = "Bonjour et bienvenue sur mon site !  Je suis passionnée par la création d'expériences utilisateur exceptionnelles, je m'efforce de donner vie à des designs élégants et fonctionnels.Explorez mon portfolio pour découvrir mes projets et n'hésitez pas à me contacter pour discuter de vos idées ."
+    
     const socialLinksData = [
         { text: "Me contacter ici", icon: faPlus, link: "#contact"},
         { text: " Ou par email", icon: faPaperPlane, link: "mailto:myriamsierra84@gmail.com"}
@@ -53,7 +55,7 @@ const Home = () => {
                         </div>
                         <Text text={text}/>
                     </div>
-                    <div className={classes.picture}><img src={ImgTest} alt="bla"/></div>  
+                    <div className={classes.picture}><img src={ImgTest} className={classes.illustration} alt="bla"/></div>  
                 </div>
                 <div className= {classes.link}>
                     <Link smooth to='#contact'> <SocialLink data={socialLinksData[0]}/></Link>
