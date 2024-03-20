@@ -130,9 +130,9 @@
         "tag": ["Tous","Javascript"],
         "text":[
             "Plant-Carrousel : Exercice d'entrainement Javascript réaliser a partir de tutoriel, ce projet fait partie des premiers exercice d'entrainement que j'ai pu réaliser, j'ai réaliser un carousel uniquement avec javascript",
-            "Ask Meteo : Exercice d'entrainement Javassript réaliser a partir de tutoriel, ce projet consiste a récuprer des données d'une api disntante de meteo",
-            "To-Do-List :Exercice d'entrainement Javassript réaliser a partir de tutoriel,ce projet fait partie des premiers exercice d'entrainement que j'ai pu réaliser",
-            "Guess-The-Number :Exercice d'entrainement Javassript réaliser a partir de tutoriel,ce projet fait partie des premiers exercice d'entrainement que j'ai pu réaliser"
+            "Ask Meteo : Exercice d'entrainement Javascript réaliser a partir de tutoriel, ce projet consiste a récuprer des données d'une api disntante de meteo",
+            "To-Do-List :Exercice d'entrainement Javascript réaliser a partir de tutoriel,ce projet fait partie des premiers exercice d'entrainement que j'ai pu réaliser",
+            "Guess-The-Number :Exercice d'entrainement Javascript réaliser a partir de tutoriel,ce projet fait partie des premiers exercice d'entrainement que j'ai pu réaliser"
         ],
         "techno": ["Api","javascript","html","css"],
         "links": [
