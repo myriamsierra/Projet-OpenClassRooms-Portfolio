@@ -52,7 +52,7 @@ const ProjectPage = () => {
                     ))}
                 </div>
                 <div className={classes.form}>
-                   <Carousel/>
+                   <Carousel images={projet.pictures}/>
                 </div>
                 <div className={classes.link}>
                     {projet.links.map((link, index) => (

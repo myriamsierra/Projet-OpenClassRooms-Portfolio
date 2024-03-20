@@ -1,5 +1,3 @@
-//CLEAN CODE OK
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTheme } from '../../../../utils/dark-mode/dark-mode';
@@ -7,11 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './social-links.scss';
 
 const SocialLink = ({ data, onClick}) => {
-
-    //darkmode theme
     const { darkMode } = useTheme();
-
-    // Data modulables
     const { text, icon, link } = data;
 
     // Classes scss modulables

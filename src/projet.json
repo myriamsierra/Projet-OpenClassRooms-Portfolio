@@ -12,9 +12,15 @@
             "L'intégration de React.js dans mon portfolio m'a permis de créer une interface utilisateur dynamique et interactive, offrant une expérience utilisateur fluide et attrayante. De plus, j'ai utilisé différentes bibliothèques et composants React pour optimiser le développement et ajouter des fonctionnalités avancées à mon site.",
             "Grâce à l'utilisation de ces technologies avancées, j'ai pu non seulement créer un portfolio esthétique et fonctionnel, mais aussi démontrer ma maîtrise des outils et des frameworks modernes du développement web. Ce projet représente ainsi une opportunité unique de mettre en pratique mes compétences acquises et de me positionner comme un développeur web compétent et innovant sur le marché professionnel."
         ],
-        "techno": ["Sass", "React","Figma","Seo","React Router","Veille"],
+        "techno": ["Sass", "React","Figma","Seo","React Router","Clean Code"],
         "links": [
-            { "text": "Voir sur Github", "icon": "faGithub", "link": "https://github.com/myriamsierra/portfoliov2"}
+            { "text": "Voir sur Github", "link": "https://github.com/myriamsierra/portfoliov2"}
+        ],
+        "pictures":[
+            "https://github.com/myriamsierra/ImgPortfolio/blob/main/2024-03-18_15h30_43.png?raw=true",
+            "https://github.com/myriamsierra/ImgPortfolio/blob/main/2024-03-18_15h31_22.png?raw=true",
+            "https://github.com/myriamsierra/ImgPortfolio/blob/main/2024-03-18_15h31_29.png?raw=true",
+            "https://github.com/myriamsierra/ImgPortfolio/blob/main/2024-03-18_15h32_06.png?raw=true"
         ]
     },
     {
@@ -31,8 +37,14 @@
         ],
         "techno": ["Sass", "React","React Router","Create React App"],
         "links": [
-            { "text": "Voir le site", "icon": "faPlus", "link": "https://www.linkedin.com/in/myriam-sierra-507436264/"},
+            { "text": "Voir le site", "icon": "faPlus", "link": "https://projet-open-class-rooms-kasa.vercel.app/"},
             { "text": "Voir sur Github", "icon": "faGithub", "link": "https://github.com/myriamsierra/Kasa-P6-OPCR"}
+        ],
+        "pictures":[
+            "https://github.com/myriamsierra/Database-Pour-Portfolio/blob/main/2024-03-19_16h10_15.png?raw=true",
+            "https://github.com/myriamsierra/Database-Pour-Portfolio/blob/main/2024-03-19_16h09_58.png?raw=true",
+            "https://github.com/myriamsierra/Database-Pour-Portfolio/blob/main/2024-03-19_16h09_40.png?raw=true"
+            
         ]
     },
     {
@@ -47,10 +59,17 @@
             "Dans ce projet, j'ai développé le back-end d'un site de notation de livres, utilisant Express pour créer le serveur et MongoDB pour la base de données. J'ai implémenté les opérations CRUD pour gérer les livres et les notations, tout en assurant la sécurité des données avec un système d'authentification. Le respect des bonnes pratiques du Green Code a également été une priorité, avec une attention particulière portée à l'optimisation des images pour réduire l'empreinte écologique du site.",
             "La maîtrise de Node.js, Express et MongoDB s'est avérée cruciale pour ce projet, me permettant de créer un back-end robuste et performant. En implémentant les opérations CRUD de manière sécurisée et en suivant une architecture MVC, j'ai acquis des compétences essentielles pour le développement back-end. De plus, la collaboration avec un développeur front-end expérimenté a enrichi mon expérience professionnelle, renforçant ainsi ma capacité à travailler en équipe sur des projets complexes."
         ],
-        "techno": ["Express", "MongoDB","Green Code","Architecture MVC","Operation CRUD","NodeJS"],
+        "techno": ["Express", "MongoDB","Green Code","Architecture MVC","Operation CRUD","NodeJS","Securité"],
         "links": [
-            { "text": "Voir le site", "icon": "faPlus", "link": "https://www.linkedin.com/in/myriam-sierra-507436264/"},
             { "text": "Voir sur Github", "icon": "faGithub", "link": "https://github.com/myriamsierra/finalP7"}
+        ],
+        "pictures":[
+            "https://github.com/myriamsierra/Database-Pour-Portfolio/blob/main/2024-03-19_14h58_36.png?raw=true",
+            "https://github.com/myriamsierra/Database-Pour-Portfolio/blob/main/2024-03-19_14h58_19.png?raw=true",
+            "https://github.com/myriamsierra/Database-Pour-Portfolio/blob/main/2024-03-19_14h58_06.png?raw=true",
+            "https://github.com/myriamsierra/Database-Pour-Portfolio/blob/main/2024-03-19_14h57_54.png?raw=true",
+            "https://github.com/myriamsierra/Database-Pour-Portfolio/blob/main/2024-03-19_14h57_44.png?raw=true",
+            "https://github.com/myriamsierra/Database-Pour-Portfolio/blob/main/2024-03-19_14h57_36.png?raw=true"
         ]
     },
     {
@@ -67,8 +86,13 @@
         ],
         "techno": ["HTML", "CSS","Responsive"],
         "links": [
-            { "text": "Voir le site", "icon": "faPlus", "link": "https://www.linkedin.com/in/myriam-sierra-507436264/"},
-            { "text": "Voir sur Github", "icon": "faGithub", "link": "https://github.com/myriamsierra/Booki-P2"}
+            { "text": "Voir le site","link": "https://myriamsierra.github.io/Projet-OpenclassRooms-Booki/?search=#"},
+            { "text": "Voir sur Github","link": "https://github.com/myriamsierra/Booki-P2"}
+        ],
+        "pictures":[
+            "https://github.com/myriamsierra/ImgPortfolio/blob/main/2024-03-18_21h04_58.png?raw=true",
+            "https://github.com/myriamsierra/ImgPortfolio/blob/main/2024-03-18_21h04_42.png?raw=true",
+            "https://github.com/myriamsierra/ImgPortfolio/blob/main/2024-03-18_21h51_27.png?raw=true"
         ]
     },
     {
@@ -78,16 +102,50 @@
         "subtext" :"Project réalisé dans le cadre de la formation developeur(se) OpenclassRooms",
         "description": "Dans ce projet, j'ai travaillé sur l'optimisation d'un site web pour une photographe. Mon objectif est de débugger les problèmes de chargement et d'optimiser le référencement (SEO) du site, en utilisant des outils comme Lighthouse ou Wave.",
         "image": "https://github.com/myriamsierra/ImgPortfolio/blob/main/2024-03-08_18h23_09.png?raw=true",
-        "tag": ["Tous", "Seo"],
+        "tag": ["Tous", "Seo","Javascript"],
         "text":[
             "Dans ce projet, j'ai travaillé sur l'optimisation du référencement d'un site en améliorant sa performance et son accessibilité. J'ai commencé par identifier les problèmes de chargement et de référencement en utilisant des outils tels que Lighthouse et Wave pour évaluer les performances actuelles du site. Ensuite, j'ai proposé des recommandations pour améliorer la vitesse de chargement, la structure du code et le référencement, que j'ai appliquées en modifiant le code du site. Mon objectif était d'améliorer les performances et l'accessibilité du site pour un meilleur référencement sur les moteurs de recherche.",
             "L'optimisation du référencement (SEO) et de l'accessibilité sont des compétences cruciales dans le développement web moderne. En réalisant ce projet, j'ai renforcé mes compétences en analyse et en amélioration des performances d'un site, ce qui contribuera directement à l'expérience utilisateur et à la satisfaction des clients. En fournissant un rapport illustrant les résultats avant et après les modifications, j'ai démontré l'impact positif de mon travail sur le référencement et l'accessibilité du site.",
             "Ce projet pour Nina Carducci, une photographe, m'a permis de mettre en pratique mes connaissances en optimisation SEO dans un contexte professionnel. En répondant aux besoins spécifiques de Nina, comme l'optimisation des images, la correction des bugs dans le code et la mise en place du référencement local, j'ai contribué à améliorer la visibilité et la performance de son site web."
         ],
-        "techno": ["Lighthouse", "wave","accesibilité","Seo","Debug","schema.org","javascript"],
+        "techno": ["Lighthouse", "wave","accesibilité"," optimisation Seo","Debug","google rich snipet","javascript"],
         "links": [
-            { "text": "Voir le site", "icon": "faPlus", "link": "https://www.linkedin.com/in/myriam-sierra-507436264/"},
+            { "text": "Voir le site", "icon": "faPlus", "link": "https://projet-open-class-rooms-nina-carducci.vercel.app/"},
             { "text": "Voir sur Github", "icon": "faGithub", "link": "https://github.com/myriamsierra/Nina-Carducci-p5"}
+        ],
+        "pictures":[
+            "https://github.com/myriamsierra/ImgPortfolio/blob/main/2024-03-19_00h00_02.png?raw=true",
+            "https://github.com/myriamsierra/ImgPortfolio/blob/main/2024-03-19_00h00_13.png?raw=true",
+            "https://github.com/myriamsierra/ImgPortfolio/blob/main/2024-03-19_00h00_24.png?raw=true",
+            "https://github.com/myriamsierra/ImgPortfolio/blob/main/2024-03-19_00h01_59.png?raw=true"
+        ]
+    },
+    {
+        "id":"5758758",
+        "title": "EXERCICE JAVASCRIPT",
+        "subtitle": "/ Projet Entrainement Personnel",
+        "subtext" :"Project personnel réalisé à partir de tutoriel ",
+        "description": "Voici quatres projets, réaliser dans mes heures perdus.Le but etant de m'entrainer sur du Javascript, que ca soit a manipuler le dom, faire appel a des API,creer des objects ect ect ",
+        "image": "https://github.com/myriamsierra/Database-Pour-Portfolio/blob/main/2024-03-20_15h31_42.png?raw=true",
+        "tag": ["Tous","Javascript"],
+        "text":[
+            "Plant-Carrousel : Exercice d'entrainement Javascript réaliser a partir de tutoriel, ce projet fait partie des premiers exercice d'entrainement que j'ai pu réaliser, j'ai réaliser un carousel uniquement avec javascript",
+            "Ask Meteo : Exercice d'entrainement Javassript réaliser a partir de tutoriel, ce projet consiste a récuprer des données d'une api disntante de meteo",
+            "To-Do-List :Exercice d'entrainement Javassript réaliser a partir de tutoriel,ce projet fait partie des premiers exercice d'entrainement que j'ai pu réaliser",
+            "Guess-The-Number :Exercice d'entrainement Javassript réaliser a partir de tutoriel,ce projet fait partie des premiers exercice d'entrainement que j'ai pu réaliser"
+        ],
+        "techno": ["Api","javascript","html","css"],
+        "links": [
+            { "text": "Voir Plant-carrousel", "link": "https://exercice-javascript-carousel-plants.vercel.app/"},
+            { "text": "Voir Ask-metéo", "link": "https://myriamsierra.github.io/EXERCICE-JAVASCRIPT--METEO/"},
+            { "text": "Voir To-Do-List", "link": "https://exercice-javascript-to-do-list.vercel.app/"},
+            { "text": "Voir Guess-The-Number", "link": "https://exercice-javascript-guess-the-number.vercel.app/"}
+        ],
+        "pictures":[
+            "https://github.com/myriamsierra/Database-Pour-Portfolio/blob/main/2024-03-20_15h48_33.png?raw=true",
+            "https://github.com/myriamsierra/Database-Pour-Portfolio/blob/main/2024-03-20_15h10_52.png?raw=true",
+            "https://github.com/myriamsierra/Database-Pour-Portfolio/blob/main/2024-03-20_15h01_18.png?raw=true",
+            "https://github.com/myriamsierra/Database-Pour-Portfolio/blob/main/2024-03-20_15h31_42.png?raw=true"
         ]
     }
 ]

@@ -1,6 +1,5 @@
 import React from 'react';
 import { useTheme } from '../../../../utils/dark-mode/dark-mode';
-
 import './project-cards.scss'
 
 const ProjectCard = ({ image, title,subtitle, description }) => {

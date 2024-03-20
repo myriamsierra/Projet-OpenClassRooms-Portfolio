@@ -1,5 +1,3 @@
-//CLEAN CODE OK
-
 import React from 'react';
 import { useTheme } from '../../../../utils/dark-mode/dark-mode';
 import './button-dark-mode.scss';
@@ -7,11 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
 
 const DarkModeButton = () => {
-    
-    //dark mode theme
     const { darkMode, setDarkMode } = useTheme();
-    
-    //fonction darkmode
     const darkModeFunction = () => {
         setDarkMode(!darkMode);
     };

@@ -1,5 +1,3 @@
-//CLEAN CODE OK
-
 import React from 'react';
 import Cards from './../skills-childs-components/cards-skills/cards-skills';
 import Symbols from '../../home/home-childs-components/symbols/symbols';
@@ -12,7 +10,6 @@ import ImgTest from './../../../assets/images/3d-gear-idea-settings-isolated-ren
 import './skills.scss';
 
 const Skills = () => {
-
     const { darkMode } = useTheme();
 
     //data modulable (a mettre en format json+tard)

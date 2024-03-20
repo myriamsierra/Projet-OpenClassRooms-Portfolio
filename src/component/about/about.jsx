@@ -1,5 +1,3 @@
-//CLEAN CODE OK
-
 import React from 'react';
 import { useTheme } from '../../utils/dark-mode/dark-mode';
 import Title from './../home/home-childs-components/title/title';
@@ -12,11 +10,7 @@ import ImgTest from './../../assets/images/book-8357328-6649338.png';
 import './about.scss';
 
 const About = () => {
-
-     //darkmode theme
-     const { darkMode } = useTheme();
-   
-    //classe scss modulable
+    const { darkMode } = useTheme();
     const classes = {
         about :'about',
         cards :'about__cards',
@@ -39,14 +33,12 @@ const About = () => {
         { text: "Mon Github", icon: faGithub, link: "https://github.com/myriamsierra"}, 
     ];
     
-
     return (  
         <div className={classes.about}>
             <div className={classes.cards}>
                 <div className= {classes.link}>
                     <SocialLink data={socialLinksData[0]}  />
                     <SocialLink data={socialLinksData[1]}  />
-
                 </div>
                 <div className={classes.content}>
                     <div className={classes.titleBox}>

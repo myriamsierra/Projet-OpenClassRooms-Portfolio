@@ -1,21 +1,24 @@
 
 
 .carousel{
-    height: 415px;
-    // border-radius: $big-border-radius;
+    width: 550px;
+    height: 450px;
+    margin: 25px auto auto auto ;
+    border-radius: 20px;
     position: relative;
     overflow: hidden;
     
-    // @media (max-width: 800px) {
-    //     height: 255px; 
-    // }
-    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     
     &__img{
         object-fit: cover;
+        border-radius: 25px;
+        overflow: hidden;
         width: 100%;
         height: 100%;
         position: absolute;
         z-index: 1;
+        filter: brightness(75%) grayscale(35%);
     }
     
     &__arrows{
@@ -26,26 +29,18 @@
         justify-content: space-between;
         align-items: center;
         position: absolute;
-        z-index: 2;   
-    }
-    &__arrows img{
-        @media (max-width: 520px) {
-                width: 24px;
-                height: 24px;
+        z-index: 2; 
+        
+        &__icon{
+            width: 60px;
         }
-    }  
-    
+    }
+     
     &__numbers {
         width: 100%;
         position: absolute;
         z-index: 3;
         bottom: 10px;
-        text-align: center;
-        // color: $second-color;
-        // font-size: small-font-size;
-        
-        // @media (max-width: 520px) {
-        //     display: none;
-        // }
+        text-align: center;     
     }
 }

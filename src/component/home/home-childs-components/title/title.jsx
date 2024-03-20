@@ -1,5 +1,3 @@
-//CLEAN CODE OK
-
 import React from 'react';
 import './title.scss'
 

@@ -1,5 +1,3 @@
-//CLEAN CODE OK
-
 import React from 'react';
 import { useTheme } from '../../../utils/dark-mode/dark-mode';
 import Symbols from '../home-childs-components/symbols/symbols';
@@ -12,13 +10,8 @@ import { HashLink as Link } from 'react-router-hash-link';
 import ImgTest from './../../../assets/images/10740609.png'
 import './home.scss';
 
-
 const Home = () => {
-
-    //darkmode theme
     const { darkMode } = useTheme();
-   
-    //classe scss modulable
     const classes = {
         home :'home',
         cards :'home__cards',
