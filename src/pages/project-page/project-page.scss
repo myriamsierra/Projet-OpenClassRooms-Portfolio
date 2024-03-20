@@ -140,4 +140,29 @@ h2{
         gap: 30px;
         justify-content: end ;
     }
+
+    &__backlink{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-style: italic;
+        font-size: 1.2rem;
+        cursor: pointer;
+        font-weight: 600;
+    }
+
+    &__backlink *{
+        color:rgb(0, 123, 128);
+    }
+
+    
+
+    &__backlink__darkmode * {
+        color:orange
+    }
+
+    &__directionlink{
+        display: flex;
+        gap:50px
+    }
 }

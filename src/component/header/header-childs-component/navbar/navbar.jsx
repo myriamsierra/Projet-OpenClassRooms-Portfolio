@@ -13,6 +13,7 @@ const Navbar = () => {
     return (
         <div>
             <nav className={classes.navbar}>
+                <Link smooth to='/#home' className={classes.link}>Accueil</Link>
                 <Link smooth to='/#about' className={classes.link}>A propos</Link>
                 <Link smooth to='/#skills' className={classes.link}>Competences</Link>
                 <Link smooth to='/#projects' className={classes.link}>Projets</Link>
