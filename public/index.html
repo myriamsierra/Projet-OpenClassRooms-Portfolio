@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <!-- Métadonées pour les moteurs de recherche -->
-	  <title>Myriam Sierra Portfolio</title>
-	  <meta name="description" content="Myriam Sierra, developpeuse web front-end sur Marseille">
-	  <meta name="robots" content="index, follow">
+	<title>Myriam Sierra Portfolio</title>
+	<meta name="description" content="Myriam Sierra, developpeuse web front-end sur Marseille">
+	<meta name="robots" content="index, follow">
     <meta property="og:profile" content="https://www.linkedin.com/in/myriam-sierra-507436264/">
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
     <!--Google Rich Snipet -->
 	  <script type="application/ld+json"> 
 		{ 
@@ -31,6 +32,12 @@
 	</script> 
   </head>
   <body>
+	<!-- A little help for the Netlify post-processing bots -->
+	<form name="contact" netlify netlify-honeypot="bot-field" hidden>
+		<input type="text" name="name" />
+		<input type="email" name="email" />
+		<textarea name="message"></textarea>
+  	</form>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
   </body>

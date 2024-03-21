@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom'; 
-import RouterConfig from './pages/router-config/routerConfig.jsx'; 
-import { ThemeProvider } from './utils/dark-mode/dark-mode.jsx'; 
+import RouterConfig from './utils/router-config/routerConfig.jsx'; 
+import { ThemeProvider } from './utils/theme-provider/dark-mode.jsx'; 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

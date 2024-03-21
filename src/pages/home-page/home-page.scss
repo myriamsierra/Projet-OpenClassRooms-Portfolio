@@ -1,0 +1,57 @@
+//-----------------------------------------LAYOUT--------------------------------------------------------------------------------//
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Dosis", sans-serif;
+}
+
+button,a,input{
+    cursor: pointer;
+}
+
+body{
+    margin: 0;
+    background: 
+    radial-gradient(circle, rgba(5, 238, 160, 0.986) 0%,
+    rgba(196, 97, 5, 0.767) 49%, 
+    rgba(1, 238, 255, 0.74) 75%, 
+    rgba(4, 152, 163, 0.678) 100%);
+    color:rgb(105, 105, 105);
+}
+
+main{
+    max-width: 1240px;
+    margin:auto; 
+    display: flex;
+    flex-direction: column;
+    gap:100px;
+}
+
+h2{
+    font-family: "Cairo", sans-serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none
+}
+
+//DARKMODE
+.body-dark-mode{
+    background-color: rgb(29, 29, 29);
+    background: 
+        radial-gradient(circle, rgb(56, 56, 56) 0%, 
+        rgb(36, 36, 36) 25%, 
+        rgb(0, 0, 0) 49%, 
+        rgb(0, 0, 0) 75%, 
+        rgba(24, 24, 24, 0.678) 100%);
+    color: rgb(201, 201, 201);
+}
+
+

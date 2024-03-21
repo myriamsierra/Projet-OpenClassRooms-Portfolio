@@ -1,12 +1,9 @@
 import React from 'react';
-import { useTheme } from './../../utils/dark-mode/dark-mode';
+import { useTheme } from './../../utils/theme-provider/dark-mode';
 import './footer.scss';
 
 const Footer = () => {
-
     const { darkMode } = useTheme();
-
-    //classes scss modulable
     const classes = {
         footer : darkMode ? 'footer footer__darkmode' : 'footer',
         copyright : darkMode ? 'footer__copyright footer__copyright__darkmode' : 'footer__copyright'

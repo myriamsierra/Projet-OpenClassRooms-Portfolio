@@ -1,55 +1,35 @@
 import React from 'react';
-import { useTheme } from '../../utils/dark-mode/dark-mode';
-import Title from './../home/home-childs-components/title/title';
-import Text from './../home/home-childs-components/text/text';
-import SocialLink from './../home/home-childs-components/social-links/social-links';
-import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons/faLinkedin';
-import Symbols from '../home/home-childs-components/symbols/symbols';
-import ImgTest from './../../assets/images/book-8357328-6649338.png';
+import { useTheme } from './../../utils/theme-provider/dark-mode';
+import SocialLink from './../components-réutilisable/social-links/social-links';
+import Title from './../components-réutilisable/title/title';
+import Text from './../components-réutilisable/text/text';
+import Symbols from '../components-réutilisable/symbols/symbols';
+import Data from './../../database/data.json';
 import './about.scss';
 
 const About = () => {
+    // DARKMODE CONFIG
     const { darkMode } = useTheme();
-    const classes = {
-        about :'about',
-        cards :'about__cards',
-        content :'about__content',
-        titleBox : 'about__title--contenair',
-        title : 'about-title',
-        link : 'about__link',
-        symbol :'about__symbol',
-        picture: darkMode ? 'about__picture about__picture__darkmode' : 'about__picture',
-        text:'about__text',
-        illustration:'about__illustration'
-    }
-
-    //data modulable(a mettre en json + tard)
-    const title = "A propos de moi";
-    const text = "Je suis une développeuse web résidant à Marseille, passionnée par le développement web depuis deux ans. Avec une formation débutée sur OpenClassrooms en août 2023, je m'inspire de l'univers des jeux vidéo et du cinéma pour créer des expériences web uniques. Découvrez mes projets sur GitHub et n'hésitez pas à consulter mon profil LinkedIn pour en savoir plus sur mon parcours professionnel."
-    const symbol ="/"
-    const socialLinksData = [
-        { text: "Mon Linkedin", icon: faLinkedin, link: "https://www.linkedin.com/in/myriam-sierra-507436264/"},
-        { text: "Mon Github", icon: faGithub, link: "https://github.com/myriamsierra"}, 
-    ];
+    const picture = darkMode ? 'about__picture about__picture__darkmode' : 'about__picture';
     
     return (  
-        <div className={classes.about}>
-            <div className={classes.cards}>
-                <div className= {classes.link}>
-                    <SocialLink data={socialLinksData[0]}  />
-                    <SocialLink data={socialLinksData[1]}  />
+        <div className="about">
+            <div className="about__cards">
+                <div className="about__link">
+                    {Data[0].links.map((link, index) => (
+                        <SocialLink key={index} data={link} />
+                    ))}
                 </div>
-                <div className={classes.content}>
-                    <div className={classes.titleBox}>
-                    <Symbols symbols={symbol} symbolssize={classes.symbol}/>
-                        <Title className={classes.title} h2={title}/>    
+                <div className="about__content">
+                    <div className="about__title--contenair">
+                        <Symbols symbols={Data[0].symbol} symbolssize="about__symbol"/>
+                        <Title className="about-title" h2={Data[0].title}/>    
                     </div>
-                    <div className={classes.text}>
-                        <Text text={text}/>
+                    <div className="about__text">
+                        <Text text={Data[0].text}/>
                     </div>
                 </div>
-                <div className={classes.picture}><img src={ImgTest} alt="test" className={classes.illustration}/></div>  
+                <div className={picture}><img src={Data[0].image} alt="ordinateur" className="about__illustration"/></div>  
             </div>
         </div>
     );
@@ -59,60 +39,3 @@ export default About;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import React from 'react';
-// import './about.scss'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter';
-// import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
-// import { faLinkedin } from '@fortawesome/free-brands-svg-icons/faLinkedin';
-// import hoverSound from './../../assets/sound/ui-click-43196.mp3';
-
-// const About = () => {
-
-//     const playHoverSound = () => {
-//         const audio = new Audio(hoverSound);
-//         audio.play();
-//     };
-
-//     return (
-//         <div>
-//             <div className='about #about' >
-//                 <h2 className='about__title'><span className='about__design'>/</span>A propos de moi</h2>
-//                 <p className='about__text'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, itaque! Dolor quaerat amet mollitia a ea nemo earum nesciunt iste rerum id neque inventore quam eius, odit ipsam praesentium tempore.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, itaque! Dolor quaerat amet mollitia a ea nemo earum nesciunt iste rerum id neque inventore quam eius, odit ipsam praesentium tempore.</p>
-//                 <div className="social-links">
-//                     <a href="URL_DE_VOTRE_PROFIL_TWITTER" onClick={playHoverSound} className="social-btn flex-center"><FontAwesomeIcon icon={faTwitter} />
-//                         <span>twitter</span></a>
-//                     <a href="https://www.linkedin.com/in/myriam-sierra-507436264/" onClick={playHoverSound} target='blank' className="social-btn flex-center"><FontAwesomeIcon icon={faLinkedin} />
-//                         <span>linkedin</span></a>
-//                     <a href="https://github.com/myriamsierra" onClick={playHoverSound} className="social-btn flex-center" target='blank'><FontAwesomeIcon icon={faGithub} />
-//                         <span>github</span></a>
-//                 </div>
-//             </div>
-//         </div>
-//     )
-// }
-
-// export default About;

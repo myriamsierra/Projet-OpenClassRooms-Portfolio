@@ -2,7 +2,7 @@
   width: 100%;
   display: flex;
   justify-content: center; 
-  margin-top: 50px;
+  margin-top: 100px;
   
   &__cards{
       position: relative;
@@ -44,10 +44,10 @@
   }
 
   &__picture{
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     position: absolute; 
-    top: -220px; 
+    top: -100px; 
     left: -145px; 
     border-radius: 20%;
     background-color: rgb(0, 123, 128);
@@ -65,7 +65,7 @@
   } 
 
   &__illustration{
-    width: 580px;
+    width: 480px;
     position: absolute;
     top:-30px;
     left:-110px;

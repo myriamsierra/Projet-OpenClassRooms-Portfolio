@@ -1,8 +1,8 @@
 import React from 'react';
-import DarkModeButton from '../header-childs-component/button-dark-mode/button-dark-mode';
-import { useTheme } from '../../../utils/dark-mode/dark-mode';
-import Logo from '../header-childs-component/logo/logo';
-import Navbar from '../header-childs-component/navbar/navbar';
+import DarkModeButton from './../header-childs/button-dark-mode/button-dark-mode';
+import { useTheme } from './../../../utils/theme-provider/dark-mode';
+import Logo from './../header-childs/logo/logo';
+import Navbar from './../header-childs/navbar/navbar';
 import './header.scss';
 
 const Header = () => {

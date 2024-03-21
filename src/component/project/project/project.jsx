@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import Symbols from '../../home/home-childs-components/symbols/symbols';
-import Title from '../../home/home-childs-components/title/title';
+import Symbols from '../../components-réutilisable/symbols/symbols';
+import Title from '../../components-réutilisable/title/title';
 import './project.scss';
-import Filters from '../project-childs-components/filter/filter';
+import Filters from './../project-childs/filter/filter';
 import { Link } from 'react-router-dom';
-import ProjectCard from '../project-childs-components/cards/project-cards';
-import ProjectData from './../../../projet.json';
+import ProjectCard from '../project-childs/cards/project-cards';
+import ProjectData from './../../../database/projet.json';
 
 const Project = () => {
     const symbol1 = "[";

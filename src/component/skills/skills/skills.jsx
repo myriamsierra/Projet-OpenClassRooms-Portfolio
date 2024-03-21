@@ -1,11 +1,11 @@
 import React from 'react';
-import Cards from './../skills-childs-components/cards-skills/cards-skills';
-import Symbols from '../../home/home-childs-components/symbols/symbols';
-import Title from '../../home/home-childs-components/title/title';
+import Cards from './../skills-childs/cards-skills/cards-skills';
+import Symbols from '../../components-réutilisable/symbols/symbols';
+import Title from '../../components-réutilisable/title/title';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
 import { faBrush } from '@fortawesome/free-solid-svg-icons';
 import { faMugHot } from '@fortawesome/free-solid-svg-icons';
-import { useTheme } from '../../../utils/dark-mode/dark-mode';
+import { useTheme } from '../../../utils/theme-provider/dark-mode';
 import ImgTest from './../../../assets/images/3d-gear-idea-settings-isolated-render-illustration-png.png'
 import './skills.scss';
 

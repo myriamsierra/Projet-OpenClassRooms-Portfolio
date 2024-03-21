@@ -1,12 +1,12 @@
 import React, { useEffect} from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { useTheme } from '../../utils/dark-mode/dark-mode';
-import SocialLink from '../../component/home/home-childs-components/social-links/social-links';
+import { useTheme } from '../../utils/theme-provider/dark-mode';
+import SocialLink from '../../component/components-réutilisable/social-links/social-links';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons'; // Import des icônes d'angle
 import './project-page.scss';
 import Carousel from './project-page-childs/carousel';
-import ProjectData from './../../projet.json';
+import ProjectData from './../../database/projet.json';
 
 const ProjectPage = () => {
     const {id} = useParams();
