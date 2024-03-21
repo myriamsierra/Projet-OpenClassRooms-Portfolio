@@ -12,6 +12,10 @@ npm start
 
 React Create App--React--React Router--SASS--Figma
 
+##DEPLOY
+netlify
+netlify-form
+
 ## COMPETENCE
 
 Creation d'une maquette--Apprendre les bases de l'Ui et Ux design
