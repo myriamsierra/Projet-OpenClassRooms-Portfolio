@@ -12,7 +12,7 @@ npm start
 
 React Create App--React--React Router--SASS--Figma
 
-##DEPLOY
+## DEPLOY
 netlify
 netlify-form
 
