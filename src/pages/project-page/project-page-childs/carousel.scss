@@ -2,12 +2,11 @@
 
 .carousel{
     width: 550px;
-    height: 450px;
+    height: 540px;
     margin: 25px auto auto auto ;
     border-radius: 20px;
     position: relative;
     overflow: hidden;
-    
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
      
     &__img{
@@ -18,7 +17,7 @@
         height: 100%;
         position: absolute;
         z-index: 1;
-        filter: brightness(75%) grayscale(35%);
+        // filter: brightness(75%) grayscale(35%);
     }
     
     &__arrows{

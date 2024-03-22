@@ -1,6 +1,8 @@
 //-----------------------------------------LAYOUT--------------------------------------------------------------------------------//
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Paytone+One&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Sulphur+Point:wght@300;400;700&display=swap');
+
 
 *{
     margin: 0;
@@ -52,27 +54,31 @@ h2{
     
     &__box{
         width: 100%;
-        margin: 250px auto auto auto ;
+        margin: 180px auto auto auto ;
         display: flex;
         flex-direction: column;
         gap:30px;
         padding: 15px 50px;
         height: fit-content;
-        background-color: rgba(143, 143, 143, 0.082);
+        background-color: rgb(253, 253, 253);
         box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
         border-radius: 30px;
         position: relative;
     }
     
     &__title{
-        font-size: 4rem;
-        color:rgb(71, 71, 71)
+        font-size: 3rem;
+        color:rgb(0, 190, 181);
+        font-weight: 600;
+        margin-bottom: 20px;
     }
 
     &__subtitle{
         margin-top: -25px;
         font-style: italic;
         color:rgb(0, 139, 139);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.432);
+        padding-bottom: 15px;
 
         &__darkmode{
             color:orange;
@@ -85,7 +91,44 @@ h2{
         flex-direction: column;
         width: 55%;
         gap:15px;
+        font-size: 1.1rem;
+        font-weight: 500;
+        border-bottom: 1px solid rgba(85, 85, 85, 0.507);
+        padding-bottom: 35px;
+        color:rgb(129, 129, 129)
+    }
+
+    &__skilltitle{
+        color:rgb(2, 139, 139);
+        font-style: italic;
+        font-weight: 500;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+
+    &__skills{
+        width: 55%;
         font-size: 1rem;
+        border-bottom: 1px solid rgb(206, 206, 206);
+        padding-bottom: 15px;
+    }
+
+    .skillsbox{
+        display: flex;
+        gap:5px;
+        align-items: center;
+        
+    }
+
+    .paragraph{
+        display: flex;
+        gap:10px;
+        align-items: center;
+    }
+
+    .fa-circle-dot{
+        color:rgb(133, 0, 185);
     }
 
     &__techno{
@@ -95,7 +138,7 @@ h2{
         gap:15px;
         font-size: 1.1rem;
         text-transform: uppercase;
-        color:rgb(0, 139, 139);
+        color:rgb(255, 255, 255);
         border-radius: 15px; 
         
         &__darkmode{
@@ -104,11 +147,11 @@ h2{
     }
 
     &__techno *{
-        border:1px solid rgba(65, 65, 65, 0.274);
-        background-color: rgba(255, 255, 255, 0.377);
+        border:1px solid rgba(8, 69, 139, 0.274);
+        background-color: rgb(1, 153, 173);
         padding:5px 15px;
         border-radius: 25px;
-        box-shadow: rgba(100, 100, 111, 0.144) 0px 7px 29px 0px; 
+        box-shadow: rgba(100, 100, 111, 0.068) 0px 7px 29px 0px; 
     }
 
     &__techno__darkmode * {
@@ -117,16 +160,18 @@ h2{
 
     &__form{
         width: 650px;
-        height: 500px;
-        border-radius:5%;
-        background-color: rgb(0, 123, 128);
+        height: 700px;
+        border-radius:55px;
         position: absolute;
         right: -150px;
         top:-60px;
-        box-shadow: rgba(255, 255, 255, 0.644) 0px 1px 1px 0px inset, 
-        rgba(50, 50, 93, 0.37) 0px 50px 100px -20px, 
-        rgba(0, 0, 0, 0.801) 0px 30px 60px -30px;
-    
+        background-color: rgb(9, 167, 167) ;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.445) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+
+
         &__darkmode{
             background-color: rgb(184, 121, 4);
             box-shadow: rgba(255, 255, 255, 0.192) 0px 1px 1px 0px inset, 
@@ -138,7 +183,7 @@ h2{
     &__link{
         display: flex;
         gap: 30px;
-        justify-content: end ;
+        justify-content: center ;
     }
 
     &__backlink{
@@ -149,11 +194,15 @@ h2{
         font-size: 1.2rem;
         cursor: pointer;
         font-weight: 600;
+        border-top: 1px solid rgba(46, 46, 46, 0.192);
+        padding-top: 10px;
     }
 
     &__backlink *{
         color:rgb(0, 123, 128);
     }
+
+   
 
     
 

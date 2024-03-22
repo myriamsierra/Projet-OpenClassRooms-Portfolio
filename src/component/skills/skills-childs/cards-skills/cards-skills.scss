@@ -35,6 +35,7 @@
     backface-visibility: hidden;
     color: rgba(77, 77, 77, 0.767);
     background-color: transparent;
+    
 
     &__darkmode, &__darkmode{
       box-shadow: rgba(0, 0, 0, 0.24) 0px 48px 100px 0px;
@@ -69,6 +70,7 @@
   &__recto--title {
     font-size: 28px;
     color: rgb(0, 141, 160);
+    font-weight: 500;
 
     &__darkmode {
       color: rgb(160, 85, 0);

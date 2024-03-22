@@ -45,19 +45,28 @@ const ProjectPage = () => {
         link:"project-page__link",
         form: darkMode ? 'project-page__form project-page__form__darkmode' : 'project-page__form',
         backlink: darkMode ? 'project-page__backlink project-page__backlink__darkmode' : 'project-page__backlink',
-        directionlink:"project-page__directionlink"
+        directionlink:"project-page__directionlink",
+        titleSkill:"project-page__skilltitle",
+        skills:"project-page__skills",
     };
 
     return (
         <main className={classes.project}>
             <div className={classes.projectBox}>
                 <div>
-                    <h2 className={classes.title}>{projet.title}</h2>
+                    <h2 className={classes.title}><i class="fa-solid fa-share"></i> {projet.title}</h2>
                     <h3 className={classes.subtitle}>{projet.subtext}</h3>
                 </div>
                 <div className={classes.textBox}>
                     {projet.text.map((paragraph, index) => (
-                        <p key={index}>{paragraph}</p>
+                        <p key={index} className='paragraph'> <i class="fa-solid fa-circle-dot"></i> {paragraph}</p>
+                    ))}
+                </div>
+                
+                <div className={classes.skills}>
+                <p className={classes.titleSkill}>Competences:</p>
+                    {projet.skills.map((skills, index) => (
+                        <p key={index} className='skillsbox'><i class="fa-solid fa-check"></i> {skills}</p>
                     ))}
                 </div>
                 <div className={classes.techno}>
@@ -67,24 +76,24 @@ const ProjectPage = () => {
                 </div>
                 <div className={classes.form}>
                    <Carousel images={projet.pictures}/>
-                </div>
-                <div className={classes.link}>
+                   <div className={classes.link}>
                     {projet.links.map((link, index) => (
-                        <SocialLink key={index} data={link}/>
+                        <SocialLink className="sociallink" key={index} data={link}/>
                     ))}
                 </div>
-            </div>
-            <div className={classes.backlink}>
-            <Link smooth to='/#projects' className={classes.backlink}> <FontAwesomeIcon icon={faAngleLeft}/>Retour</Link>
-                <div className={classes.directionlink}>
-                    <Link to={`/Projet/${getPreviousProjectId()}`}>
-                        <FontAwesomeIcon icon={faAngleLeft} /> Projet Précédent
-                    </Link>
-                    <Link to={`/Projet/${getNextProjectId()}`} >
-                        Projet Suivant <FontAwesomeIcon icon={faAngleRight} />
-                    </Link>
+            </div>   
+                <div className={classes.backlink}>
+                    <Link smooth to='/#projects'> <i class="fa-solid fa-rotate-left"></i>Retour</Link>
+                    <div className={classes.directionlink}>
+                        <Link to={`/Projet/${getPreviousProjectId()}`}>
+                            <i class="fa-solid fa-backward-fast"></i> Projet Précédent
+                        </Link>
+                        <Link to={`/Projet/${getNextProjectId()}`}>
+                            Projet Suivant <i class="fa-solid fa-forward-fast"></i> 
+                        </Link>
+                    </div>
                 </div>
-            </div>
+            </div>    
         </main>
     );
 }
