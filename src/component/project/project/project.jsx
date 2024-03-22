@@ -6,6 +6,7 @@ import Filters from './../project-childs/filter/filter';
 import { Link } from 'react-router-dom';
 import ProjectCard from '../project-childs/cards/project-cards';
 import ProjectData from './../../../database/projet.json';
+import ImgTest from './../../../assets/images/etudiant.png'
 
 const Project = () => {
     const symbol1 = "[";
@@ -41,7 +42,9 @@ const Project = () => {
         symbol: 'project__symbols',
         link: 'project__link',
         filter: 'project__filter',
-        cards: 'project__cards'
+        cards: 'project__cards',
+        picture:'project__picture',
+        illustration:'project__illustration',
     };
 
     return (
@@ -59,9 +62,11 @@ const Project = () => {
                 </div>
                 {filteredProjects.map((data, index) => (
                     <Link key={index} to={`/Projet/${data.id}`} className={classes.cards}>
-                        <ProjectCard key={index} title={data.title} image={data.image} description={data.description} subtitle={data.subtitle} />
+                        <ProjectCard key={index} title={data.title} image={data.image} description={data.description} subtitle={data.subtitle} number ={data.number}/>
                     </Link>
                 ))}
+                <div className='border'></div>
+                <div className={classes.picture}><img src={ImgTest} className={classes.illustration} alt="bla"/></div>  
             </div>
         </div>
     );

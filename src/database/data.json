@@ -1,7 +1,9 @@
 [
   {
     "title": "A propos de moi",
-    "text": "Je suis une développeuse web résidant à Marseille, passionnée par le développement web depuis deux ans. Avec une formation débutée sur OpenClassrooms en août 2023, je m'inspire de l'univers des jeux vidéo et du cinéma pour créer des expériences web uniques. Découvrez mes projets sur GitHub et n'hésitez pas à consulter mon profil LinkedIn pour en savoir plus sur mon parcours professionnel.",
+    "text": "Je suis une développeuse web résidant à Marseille.",
+    "text2":"Avec une formation débutée sur OpenClassrooms en août 2023, je m'inspire de l'univers des jeux vidéo et du cinéma pour créer des expériences web uniques. ",
+    "text3":"Découvrez mes projets sur GitHub et n'hésitez pas à consulter mon profil LinkedIn pour en savoir plus sur mon parcours professionnel.",
     "symbol": "/",
     "image":"https://github.com/myriamsierra/Database-Pour-Portfolio/blob/main/book-8357328-6649338.png?raw=true",
     "links": [
@@ -14,6 +16,27 @@
         "text": "Mon Github",
         "icon": "fa-brands fa-github",
         "link": "https://github.com/myriamsierra"
+      }
+    ]
+  },
+  {
+    "title": "Myriam Sierra",
+    "subtitle":"Développeuse frontend junior",
+    "text": "Bonjour et bienvenue sur mon site ! ",
+    "text2":" Je suis passionnée par la création d'expériences utilisateur exceptionnelles, je m'efforce de donner vie à des designs élégants et fonctionnels.",
+    "text3":"Explorez mon portfolio pour découvrir mes projets et n'hésitez pas à me contacter pour discuter de vos idées .",
+    "symbol1": "<",
+    "symbol2":">",
+    "image":"https://github.com/myriamsierra/Database-Pour-Portfolio/blob/main/10740609.png?raw=true",
+    "links": [
+      {
+        "text": "Me contacter ici",
+        "icon": "fa-solid fa-plus"
+      },
+      {
+        "text": "Ou par email",
+        "icon": "fa-solid fa-paper-plane",
+        "link": "mailto:myriamsierra84@gmail.com"
       }
     ]
   }

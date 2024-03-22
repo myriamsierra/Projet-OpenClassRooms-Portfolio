@@ -2,7 +2,7 @@ import React from 'react';
 import { useTheme } from '../../../../utils/theme-provider/dark-mode';
 import './project-cards.scss'
 
-const ProjectCard = ({ image, title,subtitle, description }) => {
+const ProjectCard = ({ image, title,subtitle, description,number}) => {
    
    
    
@@ -24,7 +24,8 @@ const ProjectCard = ({ image, title,subtitle, description }) => {
 
     return (
         <div className={classes.card}>
-            <div>
+            <div className='form'><p>#{number}</p></div>
+            <div className='box'>
                 <div className={classes.titleBox}>
                     <h3 className={classes.title}>{title}</h3>
                     <h4 className={classes.subtitle}>{subtitle}</h4>

@@ -3,21 +3,22 @@
 
     &__box{
         width: 100%;
-        margin: 100px auto auto auto ;
-        padding: 0px 0px 20px 0px;
+        margin: 200px auto auto auto ;
+        padding: 70px 0px 50px 0px;
         text-align: center;
         display: flex;
         align-content: center;
         flex-direction: column;
         gap:0px;
         height: fit-content;
-        background-color: rgba(143, 143, 143, 0.082);
+        background-color: rgba(255, 255, 255, 0.459);
         box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
         border-radius: 30px;
         position: relative;
     }
 
     &__title{
+        margin-top: 20px;
         display: flex;
         align-items: center;
         text-align: center;
@@ -25,10 +26,12 @@
     }
 
     &__cards{
+        padding-top: 80px;
+        border-top: 1px solid rgba(15, 15, 15, 0.233);
         display: flex;
         justify-content: center;
-        gap:120px;
-        margin: 45px 0px 50px 0px;
+        gap:110px;
+        margin: 45px 80px 50px 80px;
     }
 
     &__symbols{
@@ -42,16 +45,14 @@
     }
 
     &__picture{
-        width: 220px;
+        width: 380px;
         height: 220px;
-        position: absolute; 
-        top: -70px; 
-        right: -50px; 
-        border-radius: 20%;
-        background-color: rgb(0, 123, 128);
-        box-shadow: rgba(255, 255, 255, 0.616) 0px 1px 1px 0px inset, 
-                    rgba(50, 50, 93, 0.445) 0px 50px 100px -20px, 
-                    rgba(0, 0, 0, 0.863) 0px 30px 60px -30px;
+        position: absolute;
+        top: -160px; 
+        right: 410px; 
+        border-radius: 50px;
+        background-color: rgb(9, 167, 167);
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
         
         &__darkmode{
             background-color: rgb(90, 90, 90);
@@ -62,9 +63,9 @@
 }
 
 &__illustration{
-    width: 200px;
-    top:60px;
-    left: -30px;
+    width: 300px;
+    top:-20px;
+    left: 40px;
     position:absolute;
 }
 }

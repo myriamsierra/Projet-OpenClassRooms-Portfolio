@@ -4,6 +4,8 @@ import { useTheme } from './../../../../utils/theme-provider/dark-mode';
 import './navbar.scss'; 
 
 const Navbar = () => {
+
+    //DARKMODE CONFIG ==>
     const { darkMode} = useTheme();
     const classes = {
         navbar: darkMode ? 'navbar navbar--darkmode' : 'navbar',

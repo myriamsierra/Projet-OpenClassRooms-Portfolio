@@ -1,7 +1,7 @@
 .project-cards{
-    width: 75%;
-    height: 150px;
-    border-radius: 10px;
+    width: 70%;
+    height: 200px;
+    border-radius: 100px;
     box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
     transition: all 0.2s;
     position: relative;
@@ -22,10 +22,10 @@
     }
 
     &__imagebox{
-        max-width: 350px; 
+        max-width: 40%; 
         height: auto; /* Permet à l'image de conserver son ratio d'aspect */
-        background-color: white;
-        border-left: 15px solid rgb(32, 180, 185);
+       
+        // border-left: 15px solid rgb(32, 180, 185);
 
         &__darkmode{
             border-left: 15px solid rgb(255, 189, 6);
@@ -33,16 +33,22 @@
     }
 
     &__image{
-        width: 100%;
-        object-fit: contain; /* Remplacez 'cover' par 'contain' */
+        width: 185px;
+        height: 185px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 8px;
+        object-fit: cover; 
         object-position: top;
+        border: 2px solid rgba(167, 0, 233, 0.555);
+        box-shadow: rgba(0, 0, 0, 0.034) 0px 4px 12px;
     }
     
     &__title{
         color:rgb(65, 65, 65);
         font-weight: 500;
         text-align: start; 
-        font-size: 1.3rem; 
+        font-size: 1.5rem; 
 
         &__darkmode{
             color:rgb(0, 0, 0);
@@ -51,6 +57,7 @@
     }
 
     &__description{
+        
         font-weight: 400;
         text-align: start;
         padding: 5px 20px 10px 15px;
@@ -137,6 +144,23 @@
         &__darkmode{
             color:orange;
         }
+    }
+
+    .form{
+        width: 350px;
+        height: 100%;
+        padding-left: 25px;
+        background-color: rgba(0, 167, 167, 0.486);
+        font-size: 4.5rem;
+        color: white;
+        font-style: italic;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+    }
+
+    .box{
+        width: 1000px;
     }
 }
 

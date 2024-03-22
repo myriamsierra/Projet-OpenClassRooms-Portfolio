@@ -23,13 +23,13 @@ const About = () => {
                 <div className="about__content">
                     <div className="about__title--contenair">
                         <Symbols symbols={Data[0].symbol} symbolssize="about__symbol"/>
-                        <Title className="about-title" h2={Data[0].title}/>    
+                        <Title className="about__title" h2={Data[0].title}/>    
                     </div>
                     <div className="about__text">
-                        <Text text={Data[0].text}/>
+                        <Text text={Data[0].text} text2={Data[0].text2} text3={Data[0].text3}/>
                     </div>
                 </div>
-                <div className={picture}><img src={Data[0].image} alt="ordinateur" className="about__illustration"/></div>  
+                <div className={picture}><img src={Data[0].image} alt="livrer" className="about__illustration"/></div>  
             </div>
         </div>
     );

@@ -13,7 +13,7 @@ const Filters = ({ tag, onClick, active }) => {
 
     return (
         <div className={`${classes.filter} ${active ? classes.active : ''}`} onClick={() => onClick(tag)}>
-            <p className={classes.tags}>[ {tag} ]</p>
+            <p className={classes.tags}> {tag} </p>
         </div>
     );
 };

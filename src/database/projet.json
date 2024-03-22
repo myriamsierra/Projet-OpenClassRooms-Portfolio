@@ -1,6 +1,7 @@
 [
     {
         "id":"1545575",
+        "number":"01",
         "title": "PORTFOLIO",
         "subtitle": "/ Projet OpenClassRooms",
         "subtext" :"Project réalisé dans le cadre de la formation developeur(se) OpenclassRooms",
@@ -25,10 +26,11 @@
     },
     {
         "id":"2578757",
+        "number":"02",
         "title": "KASA",
         "subtitle": "/ Projet OpenClassRooms",
         "subtext" :"Project réalisé dans le cadre de la formation developeur(se) OpenclassRooms",
-        "description": "Dans ce projet, j'utilise React et React Router pour développer une application web de location immobilière, en mettant en œuvre également SASS pour la gestion du CSS. Cela me permet d'améliorer mes compétences en développement front-end avec des outils modernes et efficaces.",
+        "description": "Dans ce projet, j'utilise React et React Router pour développer une application web de location immobilière, en mettant en œuvre également SASS pour la gestion du CSS.",
         "image": "https://github.com/myriamsierra/ImgPortfolio/blob/main/2024-03-08_17h58_26.png?raw=true",
         "tag": ["Tous", "React"],
         "text":[
@@ -49,6 +51,7 @@
     },
     {
         "id":"35778857",
+        "number":"03",
         "title": "MON VIEUX GRIMOIRE",
         "subtitle": "/ Projet OpenClassRooms",
         "subtext" :"Project réalisé dans le cadre de la formation developeur(se) OpenclassRooms",
@@ -74,6 +77,7 @@
     },
     {
         "id":"4758757",
+        "number":"04",
         "title": "BOOKI",
         "subtitle": "/ Projet OpenClassRooms",
         "subtext" :"Project réalisé dans le cadre de la formation developeur(se) OpenclassRooms",
@@ -97,6 +101,7 @@
     },
     {
         "id":"5758757",
+        "number":"05",
         "title": "NINA CARDUCCI",
         "subtitle": "/ Projet OpenClassRooms",
         "subtext" :"Project réalisé dans le cadre de la formation developeur(se) OpenclassRooms",
@@ -122,6 +127,7 @@
     },
     {
         "id":"5758758",
+        "number":"06",
         "title": "EXERCICE JAVASCRIPT",
         "subtitle": "/ Projet Entrainement Personnel",
         "subtext" :"Project personnel réalisé à partir de tutoriel ",

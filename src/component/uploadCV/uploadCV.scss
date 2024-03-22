@@ -1,0 +1,64 @@
+.upload{
+    margin-top: 70px;
+    display: flex;
+    justify-content: end;
+    
+
+    &__contenair{
+        padding: 30px;
+        width: 600px;
+        height: 200px;
+        border-radius: 60px;
+        background-color: rgb(9, 167, 167);
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; 
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    &__button{
+        margin-left: 200px;
+        width: fit-content;
+        height: fit-content;
+        font-size: 1.1rem;
+        color: rgb(0, 181, 187);
+        font-weight: 300;
+        font-family: "Paytone One", sans-serif;
+        border-radius: 20px;
+        padding: 12px 20px;
+        background-color: rgb(235, 235, 235);
+        box-shadow: rgb(166, 170, 173) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.171) -3px -3px 6px 1px inset;
+        position: relative;
+        transition-timing-function: cubic-bezier(0.85, 0.1, 1.5, 1);
+        transition-duration: 1.5s; 
+        cursor: pointer;
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        border: 2px solid rgba(1, 113, 133, 0.815);
+    }
+
+    &__button i {
+        font-size: 1.9rem;
+    }
+
+    
+    &__button:hover {
+        background-color: rgb(211, 211, 211);
+        transform: translateX(28px); 
+        transition: transform 0.8s ease;   
+    }
+
+    &__button:active {
+        scale :(0.9);
+    }
+}
+
+.upload img {
+    position: absolute;
+    width: 300px;
+    top:-50px;
+    left: -50px;
+}

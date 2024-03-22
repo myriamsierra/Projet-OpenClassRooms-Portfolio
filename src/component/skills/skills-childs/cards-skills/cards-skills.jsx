@@ -31,7 +31,7 @@ const Cards = ({titleRecto,textRecto,textVerso}) => {
           <div className={classes.verso}>
             <ul>
               {textVerso.map((skill, index) => (
-                <li key={index} className={classes.liste}>[ {skill} ]</li>
+                <li key={index} className={classes.liste}><i class="fa-solid fa-check"></i> {skill} </li>
               ))}
             </ul>
           </div>

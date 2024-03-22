@@ -4,12 +4,14 @@ import { useTheme } from '../../../../utils/theme-provider/dark-mode';
 import './logo.scss'; 
 
 const Logo = () => {
+
+    //DARKMODE CONFIG ==>
     const { darkMode } = useTheme();
     const logoClass = darkMode ? 'logo logo__darkmode' : 'logo';
 
     return (
         <div>
-            <Link smooth to='#home'>
+            <Link smooth to='/#home'>
                 <h1 className={logoClass}>/MS</h1>
             </Link>
         </div>

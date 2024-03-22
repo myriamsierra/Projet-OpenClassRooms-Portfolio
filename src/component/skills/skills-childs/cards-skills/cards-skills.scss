@@ -16,7 +16,7 @@
     width: 100%;
     background-color: transparent;
     position: relative;
-    transition: transform 1500ms;
+    transition: transform 2.3s;
     transform-style: preserve-3d;
     border-radius: 2rem;
   }
@@ -31,9 +31,9 @@
     width: 100%;
     border-radius: 2rem;
     position: absolute;
-    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    box-shadow: rgba(20, 16, 44, 0.11) 0px 48px 100px 0px;
     backface-visibility: hidden;
-    color: rgb(136, 136, 136);
+    color: rgba(77, 77, 77, 0.767);
     background-color: transparent;
 
     &__darkmode, &__darkmode{
@@ -41,12 +41,12 @@
     } 
   }
 
-  &__recto, &__verso {
+  &__recto {
     display: flex;
     justify-content:center;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 0px;
   }
 
   &__verso {
@@ -56,6 +56,10 @@
   &__verso--liste{
     font-size: 1.2rem;
     color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    gap:5px;
+    margin-bottom: 5px;
 
     &__darkmode{
       color: rgb(255, 255, 255);
@@ -69,6 +73,18 @@
     &__darkmode {
       color: rgb(160, 85, 0);
     }
+  }
+
+  &__verso {
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .fa-check{
+    font-size: 0.5rem
   }
 }
 

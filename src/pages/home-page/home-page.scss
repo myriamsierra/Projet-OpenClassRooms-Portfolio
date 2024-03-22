@@ -1,6 +1,9 @@
 //-----------------------------------------LAYOUT--------------------------------------------------------------------------------//
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Sulphur+Point:wght@300;400;700&display=swap');
+
 
 *{
     margin: 0;
@@ -18,14 +21,17 @@ button,a,input{
 body{
     margin: 0;
     background: 
-    radial-gradient(circle, rgba(5, 238, 160, 0.986) 0%,
-    rgba(196, 97, 5, 0.767) 49%, 
-    rgba(1, 238, 255, 0.74) 75%, 
-    rgba(4, 152, 163, 0.678) 100%);
+    radial-gradient(circle, rgba(255, 255, 255, 0.87) 0%,
+    rgba(54, 54, 54, 0.123) 49%, 
+    rgba(95, 95, 95, 0.075) 75%, 
+    rgba(53, 53, 53, 0.089) 100%);
     color:rgb(105, 105, 105);
+    background-size: cover; // Pour que l'image remplisse complètement le conteneur
+    background-position: center;
 }
 
 main{
+   
     max-width: 1240px;
     margin:auto; 
     display: flex;

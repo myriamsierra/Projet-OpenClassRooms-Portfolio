@@ -17,7 +17,7 @@ const RouterConfig = () => (
     <Routes>
       <Route path="/" element={<HomePage/>}/> 
       <Route path="/Projet/:id" element={<ProjectPage />} />
-      <Route path="/*" element={<ErrorPage/>} />
+      <Route path="*" element={<ErrorPage/>} />
       <Route path="/about" element={<About/>} />
       <Route path="/skills" component={Skills} />
       <Route path="/projects" component={Project} />
