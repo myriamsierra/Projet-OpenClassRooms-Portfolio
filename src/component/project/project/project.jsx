@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useTheme } from './../../../utils/theme-provider/dark-mode';
 import Symbols from '../../components-réutilisable/symbols/symbols';
 import Title from '../../components-réutilisable/title/title';
 import './project.scss';
@@ -9,6 +10,14 @@ import ProjectData from './../../../database/projet.json';
 import ImgTest from './../../../assets/images/etudiant.png'
 
 const Project = () => {
+
+    // DARKMODE CONFIG
+    const { darkMode } = useTheme();
+    const projectBox = darkMode ? 'project__box project__box__darkmode' : 'project__box';
+    const picture= darkMode ? 'project__picture project__picture__darkmode' : 'project__picture';
+   
+
+
     const symbol1 = "[";
     const symbol2 = "]";
     const title = "Mes projets";
@@ -37,19 +46,18 @@ const Project = () => {
 
     const classes = {
         project: 'project',
-        projectBox: "project__box",
         title: "project__title",
         symbol: 'project__symbols',
         link: 'project__link',
         filter: 'project__filter',
         cards: 'project__cards',
-        picture:'project__picture',
+       
         illustration:'project__illustration',
     };
 
     return (
         <div className={classes.project}>
-            <div className={classes.projectBox}>
+            <div className={projectBox}>
                 <div className={classes.title}>
                     <Symbols symbols={symbol1} symbolssize={classes.symbol} />
                     <Title h2={title} />
@@ -66,7 +74,7 @@ const Project = () => {
                     </Link>
                 ))}
                 <div className='border'></div>
-                <div className={classes.picture}><img src={ImgTest} className={classes.illustration} alt="bla"/></div>  
+                <div className={picture}><img src={ImgTest} className={classes.illustration} alt="bla"/></div>  
             </div>
         </div>
     );

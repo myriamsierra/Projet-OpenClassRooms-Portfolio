@@ -1,23 +1,51 @@
-.title{
+.titleBox{
     display: flex;
     flex-direction: column;
     text-align: center;
    
-    &__h2{
-        font-size: 4rem;
-        height: 70px;
+    .title{
+        height: 10%;
+        font-size: 3vw;
+        font-family: "Sulphur Point", sans-serif;
         font-weight: 700;
         text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.199);
-        font-family: "Sulphur Point", sans-serif;
         color: rgba(0, 46, 42, 0.541);
-       
+
+        @media (max-width: 1150px) {
+            font-size: 3rem; 
+        }
+
+        @media (max-width: 600px) {
+            font-size: 2.1rem;
+        }
+
+        
+        @media (max-width: 350px) {
+            font-size: 1.2rem;
+        }
+
+        &__darkmode {
+            color: orange;
+        }  
     }
 
-    &__h3{
-        font-size: 1.5rem;
+    .subtitle{
+        font-size: 1.5vw;
         font-family: "Cairo", sans-serif;
         font-weight: 200;
-       
+
+        @media (max-width: 1150px) {
+            font-size: 1.2rem; 
+        }
+
+        @media (max-width: 350px) {
+            font-size: 0.8rem;
+        }
+        
+
+        &__darkmode {
+            color: orange;
+        } 
     }
 }
 

@@ -12,25 +12,27 @@ const Home = () => {
 
     //DARKMODE CONFIG ==>
     const { darkMode } = useTheme();
-    const picture = darkMode ? 'home__picture home__picture__darkmode' : 'home__picture';
-       
+    const colorBox = darkMode ? 'colorBox colorBox__darkmode' : 'colorBox';
+    const homeCards = darkMode ? 'home__cards home__cards__darkmode' :'home__cards'
+    
+
     return (
         <div className="home">
-            <div className="home__cards">
-                <div className="home__box">
+            <div className={homeCards}>
+                <div className="home__cards__box">
                     <div>
-                        <div className="home__title--contenair">
-                            <Symbols symbols={Data[1].symbol1} symbolssize="home__symbol"/>
-                            <Title className="'title'" h2={Data[1].title} h3={Data[1].subtitle}/>
-                            <Symbols symbols={Data[1].symbol2} symbolssize="home__symbol"/>
+                        <div className="home__cards__box__title">
+                            <Symbols symbols={Data[1].symbol1} symbolssize="symbol"/>
+                            <Title className="title" h2={Data[1].title} h3={Data[1].subtitle}/>
+                            <Symbols symbols={Data[1].symbol2} symbolssize="symbol"/>
                         </div>
-                        <Text text={Data[1].text} text2={Data[1].text2} text3={Data[1].text3}/>
+                        <Text text={Data[1].text} text2={Data[1].text2} text3={Data[1].text3} text4={Data[1].text4}/>
                     </div>
-                    <div className={picture}>
-                        <img src={Data[1].image} className="home__illustration" alt="ordinateur"/>
+                    <div className={colorBox}>
+                        <img src={Data[1].image} className="colorBox__image" alt="ordinateur"/>
                     </div>  
                 </div>
-                <div className="home__link">
+                <div className="home__cards__link">
                     <Link smooth to='#contact'> 
                         <SocialLink data={Data[1].links[0]}/>
                     </Link>

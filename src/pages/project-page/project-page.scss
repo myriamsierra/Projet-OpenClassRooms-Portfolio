@@ -19,14 +19,14 @@ button,a,input{
 
 body{
     margin: 0;
-    
-    // background: 
-    // radial-gradient(circle, rgba(69, 224, 172, 0.37) 0%,
-    // rgba(247, 119, 0, 0.233) 49%, 
-    // rgba(0, 238, 255, 0.205) 75%, 
-    //  rgba(0, 238, 255, 0.295) 100%);
       color:rgb(105, 105, 105)
 }
+
+main{
+    max-width: 1240px;
+    margin: auto;
+}
+
 
 
 h2{
@@ -64,6 +64,28 @@ h2{
         box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
         border-radius: 30px;
         position: relative;
+
+
+        
+        @media (max-width: 1440px) {
+            width: 96%;
+           margin: 180px auto 100px auto;
+           gap:80px
+        }
+        @media (max-width: 520px) {
+            width: 99%;
+            padding: 15px 10px;
+         }
+
+         
+        @media (max-width: 400px) {
+            margin: 250px auto auto auto;
+         }
+
+
+        &__darkmode {
+            background-color: rgba(77, 77, 77, 0.452);
+        }
     }
     
     &__title{
@@ -71,6 +93,32 @@ h2{
         color:rgb(0, 190, 181);
         font-weight: 600;
         margin-bottom: 20px;
+
+        @media (max-width: 1430px) {
+            text-align: center;
+        }
+
+        @media (max-width: 660px) {
+            font-size: 2.5rem;
+        }
+
+        @media (max-width: 550px) {
+            font-size: 2rem;
+        }
+
+        @media (max-width: 460px) {
+            font-size: 1.5rem;
+        }
+
+        @media (max-width: 380px) {
+            font-size: 1.2rem;
+        }
+
+        
+
+        &__darkmode{
+            color: rgb(172, 112, 0);
+        }
     }
 
     &__subtitle{
@@ -79,6 +127,14 @@ h2{
         color:rgb(0, 139, 139);
         border-bottom: 1px solid rgba(0, 0, 0, 0.432);
         padding-bottom: 15px;
+
+        @media (max-width: 1430px) {
+            text-align: center;
+        }
+
+        @media (max-width: 380px) {
+            font-size: 0.9rem;
+        }
 
         &__darkmode{
             color:orange;
@@ -95,7 +151,17 @@ h2{
         font-weight: 500;
         border-bottom: 1px solid rgba(85, 85, 85, 0.507);
         padding-bottom: 35px;
-        color:rgb(129, 129, 129)
+        color:rgb(129, 129, 129);
+
+        @media (max-width: 1430px) {
+            margin: auto;
+            width: 90%;
+        }
+
+        @media (max-width: 380px) {
+            font-size: 0.9rem;
+        }
+
     }
 
     &__skilltitle{
@@ -105,6 +171,10 @@ h2{
         font-size: 1.2rem;
         text-transform: uppercase;
         margin-bottom: 15px;
+
+        &__darkmode{
+            color:orange
+        }
     }
 
     &__skills{
@@ -112,13 +182,38 @@ h2{
         font-size: 1rem;
         border-bottom: 1px solid rgb(206, 206, 206);
         padding-bottom: 15px;
+
+        @media (max-width: 1430px) {
+            margin: auto;
+            width: 80%;
+            text-align: center;
+        }
+
+        @media (max-width: 450px) {
+            width: 100%;
+            font-size: 0.9rem;
+         }
+
+         @media (max-width: 380px) {
+            font-size: 0.8rem;
+        }
     }
 
     .skillsbox{
         display: flex;
         gap:5px;
-        align-items: center;
+        align-items: center; 
         
+        @media (max-width: 1430px) {
+            width: fit-content;
+            margin: auto;
+        }
+
+        .fa-check{
+            @media (max-width: 380px) {
+                display: none;
+            }
+        }
     }
 
     .paragraph{
@@ -128,7 +223,9 @@ h2{
     }
 
     .fa-circle-dot{
-        color:rgb(133, 0, 185);
+        color:rgb(128, 128, 128);
+
+       
     }
 
     &__techno{
@@ -140,6 +237,16 @@ h2{
         text-transform: uppercase;
         color:rgb(255, 255, 255);
         border-radius: 15px; 
+
+        @media (max-width: 1430px) {
+            width: 100%;
+            justify-content: center;
+        }
+
+        @media (max-width: 450px) {
+            font-size: 0.9rem;
+         }
+
         
         &__darkmode{
             color:orange
@@ -163,7 +270,7 @@ h2{
         height: 700px;
         border-radius:55px;
         position: absolute;
-        right: -150px;
+        right: -90px;
         top:-60px;
         background-color: rgb(9, 167, 167) ;
         box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.445) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
@@ -171,9 +278,21 @@ h2{
         flex-direction: column;
         padding: 20px;
 
+        @media (max-width: 1430px) {
+            width: 100%;
+            height: fit-content;
+            position:inherit;
+            top: 0;
+            right: 0;
+            margin: auto;
+            gap:60px
+        }
+
+        
+
 
         &__darkmode{
-            background-color: rgb(184, 121, 4);
+            background-color: rgb(27, 27, 27);
             box-shadow: rgba(255, 255, 255, 0.192) 0px 1px 1px 0px inset, 
         rgba(50, 50, 93, 0.37) 0px 50px 100px -20px, 
         rgba(0, 0, 0, 0.801) 0px 30px 60px -30px;
@@ -184,6 +303,14 @@ h2{
         display: flex;
         gap: 30px;
         justify-content: center ;
+
+        @media (max-width: 880px) {
+            gap:8px
+        }
+
+        @media (max-width: 700px) {
+            flex-wrap: wrap;
+        }
     }
 
     &__backlink{
@@ -195,7 +322,15 @@ h2{
         cursor: pointer;
         font-weight: 600;
         border-top: 1px solid rgba(46, 46, 46, 0.192);
-        padding-top: 10px;
+        padding: 10px;
+
+        @media (max-width: 580px) {
+            font-size: 0.8rem;
+        }
+
+        @media (max-width: 350px) {
+            font-size: 0.5rem;
+        }
     }
 
     &__backlink *{
@@ -212,6 +347,11 @@ h2{
 
     &__directionlink{
         display: flex;
-        gap:50px
+        gap:50px;
+
+        @media (max-width: 410px) {
+            gap:15px;
+        }
     }
+
 }

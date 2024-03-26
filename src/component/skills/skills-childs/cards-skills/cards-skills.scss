@@ -4,6 +4,25 @@
     width: 270px;
     height: 194px;
     perspective: 900px;
+
+    @media (max-width: 1150px) {
+      width:190px;
+      height: 150px; 
+      perspective: 900px; 
+    }
+
+    @media (max-width: 750px) {
+        width: 170px; 
+    }
+
+    @media (max-width: 600px) {
+      width: 250px;
+  }
+
+  @media (max-width: 300px) {
+    width: 190px;
+}
+
   }
 
   .skill-cards__contenair:hover > .skill-cards__card {
@@ -23,7 +42,12 @@
 
   &__recto--icons{
     margin-top: 30px;
-    font-size: 5rem;
+    font-size: 5vw;
+
+    @media (max-width: 600px) {
+      font-size: 4rem;
+    }
+
   }
 
   &__recto, &__verso {
@@ -38,7 +62,7 @@
     
 
     &__darkmode, &__darkmode{
-      box-shadow: rgba(0, 0, 0, 0.24) 0px 48px 100px 0px;
+      box-shadow: rgb(0, 0, 0) 0px 48px 100px 0px;
     } 
   }
 
@@ -47,7 +71,6 @@
     justify-content:center;
     flex-direction: column;
     align-items: center;
-    gap: 0px;
   }
 
   &__verso {
@@ -55,12 +78,16 @@
   }
 
   &__verso--liste{
-    font-size: 1.2rem;
+    font-size: 1.2vw;
     color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
     gap:5px;
     margin-bottom: 5px;
+
+    @media (max-width: 600px) {
+      font-size: 1rem;
+    }
 
     &__darkmode{
       color: rgb(255, 255, 255);
@@ -68,12 +95,16 @@
   }
 
   &__recto--title {
-    font-size: 28px;
+    font-size: 2vw;
     color: rgb(0, 141, 160);
     font-weight: 500;
 
+    @media (max-width: 600px) {
+      font-size: 1.5rem;
+    }
+
     &__darkmode {
-      color: rgb(160, 85, 0);
+      color: rgb(192, 192, 192);
     }
   }
 

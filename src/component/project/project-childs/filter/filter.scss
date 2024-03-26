@@ -14,8 +14,33 @@
         box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
         cursor: pointer;
 
+        @media (max-width: 900px) {
+            font-size: 1.1rem; 
+            padding:5px 21px;
+        }
+
+        @media (max-width: 750px) {
+            font-size: 1rem;
+            padding:5px 19px ; 
+        }
+
+        @media (max-width: 720px) {
+            font-size: 0.9rem;
+            padding:5px 10px ; 
+        }
+
+        @media (max-width: 500px) {
+            font-size: 0.8rem;
+        }
+
+        @media (max-width: 450px) {
+            font-size: 0.7rem;
+            padding: 5px 8px;
+            margin-bottom: 20px;
+        }
+
         &__darkmode{
-            color:rgb(179, 80, 0);
+            color:rgb(248, 113, 2);
         }
     }
 
@@ -25,7 +50,11 @@
         transform: translateY(-15px); 
         transition: transform 0.8s ease;
         font-weight: 600;  
-        background-color: rgba(179, 179, 179, 0.096);       
+        background-color: rgba(179, 179, 179, 0.096);
+        
+        @media (max-width: 550px) {
+            scale: (0.9);
+        }
     }
 
     &__tags:active {

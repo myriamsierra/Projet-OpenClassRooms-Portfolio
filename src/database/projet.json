@@ -5,7 +5,7 @@
         "title": "PORTFOLIO",
         "subtitle": "/ Projet OpenClassRooms",
         "subtext" :"Project réalisé dans le cadre de la formation developeur(se) OpenclassRooms",
-        "description": "Projet de création et de publication en ligne de mon portfolio de développeuse web. Ce projet me permet de mettre en avant mon parcours, mes compétences et mes réalisations en développement à travers un site professionnel.",
+        "description": "Pour cloturer ma formation, j'ai due réaliser mon propre portfolio pour me presenter et presenter mes projets.J'ai eue une entière liberté pour le choix du design, des technologies et langages.",
         "image": "https://github.com/myriamsierra/ImgPortfolio/blob/main/2024-03-08_17h36_47.png?raw=true",
         "tag": ["Tous", "React"],
         "text":[
@@ -26,10 +26,10 @@
             { "text": "Voir sur Github", "link": "https://github.com/myriamsierra/portfoliov2","icon":"fa-brands fa-github"}
         ],
         "pictures":[
-            "https://github.com/myriamsierra/ImgPortfolio/blob/main/2024-03-18_15h30_43.png?raw=true",
-            "https://github.com/myriamsierra/ImgPortfolio/blob/main/2024-03-18_15h31_22.png?raw=true",
-            "https://github.com/myriamsierra/ImgPortfolio/blob/main/2024-03-18_15h31_29.png?raw=true",
-            "https://github.com/myriamsierra/ImgPortfolio/blob/main/2024-03-18_15h32_06.png?raw=true"
+            "https://github.com/myriamsierra/Database-Pour-Portfolio/blob/main/2024-03-22_21h25_28.png?raw=true",
+            "https://github.com/myriamsierra/Database-Pour-Portfolio/blob/main/2024-03-22_21h25_59.png?raw=true",
+            "https://github.com/myriamsierra/Database-Pour-Portfolio/blob/main/2024-03-22_21h33_43.png?raw=true",
+            "https://github.com/myriamsierra/Database-Pour-Portfolio/blob/main/2024-03-22_21h37_42.png?raw=true"
         ]
     },
     {
@@ -38,30 +38,30 @@
         "title": "KASA",
         "subtitle": "/ Projet OpenClassRooms",
         "subtext" :"Project réalisé dans le cadre de la formation developeur(se) OpenclassRooms",
-        "description": "Dans ce projet, j'utilise React et React Router pour développer une application web de location immobilière, en mettant en œuvre également SASS pour la gestion du CSS.",
+        "description": "La mission de ce projet à été d'intégrer la maquette d'un site de location immobilière.J'ai donc due faire mes premier pas avec REACT ET SASS pour concevoir le front-end du site",
         "image": "https://github.com/myriamsierra/ImgPortfolio/blob/main/2024-03-08_17h58_26.png?raw=true",
         "tag": ["Tous", "React"],
         "text":[
-            "Dans ce projet, j'ai développé une application web de location immobilière en utilisant React et React Router. Mon rôle était de concevoir le front-end de l'application, en mettant en œuvre la logique de présentation des données et en créant des composants réactifs. En suivant les maquettes Figma et en utilisant des données simulées, j'ai travaillé sur le développement front-end en respectant des directives de qualité de code.",
-            "La maîtrise de React et React Router a été essentielle, renforçant mes compétences dans le développement web moderne. J'ai également appris à utiliser SASS pour gérer le CSS et à implémenter des animations CSS, améliorant ainsi l'expérience utilisateur. Ces compétences m'ont permis de créer une application web dynamique et visuellement attrayante, répondant aux standards de l'industrie."
+            "L'agence de location immobilière KASA nous à mandater pour réaliser le front-end de son site",
+            "A partir d'une maquette FIGMA réaliser par l'agence, j'ai réaliser l'intégration en utilisant REACT et SASS",
+            "L'enjeu de ce projet à été dans un premier temps de decouvrir ces deux outils, puis d'apprendre a construire des composants réutilisable, clair et fonctionnel, afin de facilité les maintenances futures"
         ],
         "techno": ["Sass", "React","React Router","Create React App"],
         "skills":[
-            "Organisation et découpage du projet avec NOTION.",
-            "Réaliser une veille technologique.",
-            "Création d'une maquette FIGMA et WIREFRAME.",
-            "Integration avec REACT et sa librairie REACT ROUTER.",
-            "Deploiement avec NETFLIFY"
+            "Organisation et WIREFRAME du projet",
+            "Initialiser une application REACT avec CREATE REACT APP",
+            "Apprendre la logique des PROPS et HOOKS",
+            "Installer une logique de SINGLE PAGE APPLICATION avec REACT ROUTER",
+            "Creer le style du front end avec SASS"
         ],
         "links": [
-            { "text": "Voir le site", "icon": "faPlus", "link": "https://projet-open-class-rooms-kasa.vercel.app/"},
-            { "text": "Voir sur Github", "icon": "faGithub", "link": "https://github.com/myriamsierra/Kasa-P6-OPCR"}
+            { "text": "Voir le site", "icon": "fa-solid fa-plus", "link": "https://projet-open-class-rooms-kasa.vercel.app/"},
+            { "text": "Voir sur Github", "icon":"fa-brands fa-github", "link": "https://github.com/myriamsierra/Kasa-P6-OPCR"}
         ],
         "pictures":[
-            "https://github.com/myriamsierra/Database-Pour-Portfolio/blob/main/2024-03-19_16h10_15.png?raw=true",
-            "https://github.com/myriamsierra/Database-Pour-Portfolio/blob/main/2024-03-19_16h09_58.png?raw=true",
-            "https://github.com/myriamsierra/Database-Pour-Portfolio/blob/main/2024-03-19_16h09_40.png?raw=true"
-            
+            "https://github.com/myriamsierra/Database-Pour-Portfolio/blob/main/2024-03-23_13h12_33.png?raw=true",
+            "https://github.com/myriamsierra/Database-Pour-Portfolio/blob/main/2024-03-23_13h14_29.png?raw=true",
+            "https://github.com/myriamsierra/Database-Pour-Portfolio/blob/main/2024-03-23_13h14_48.png?raw=true"  
         ]
     },
     {
@@ -70,23 +70,25 @@
         "title": "MON VIEUX GRIMOIRE",
         "subtitle": "/ Projet OpenClassRooms",
         "subtext" :"Project réalisé dans le cadre de la formation developeur(se) OpenclassRooms",
-        "description": "Dans ce projet, je développe le back-end d'un site de notation de livres avec Express et MongoDB. J'implémente des opérations CRUD, un système d'authentification sécurisé, et je prends en compte les bonnes pratiques du Green Code.",
+        "description": "Pour ce projet, j'ai due me mettre dans la peau d'une developpeuse Back-end, pour creer à partir de documentation specifique et technique fournis par mon agence, le back-end",
         "image": "https://github.com/myriamsierra/ImgPortfolio/blob/main/2024-03-08_18h08_05.png?raw=true",
         "tag": ["Tous", "Backend"],
         "text":[
-            "Dans ce projet, j'ai développé le back-end d'un site de notation de livres, utilisant Express pour créer le serveur et MongoDB pour la base de données. J'ai implémenté les opérations CRUD pour gérer les livres et les notations, tout en assurant la sécurité des données avec un système d'authentification. Le respect des bonnes pratiques du Green Code a également été une priorité, avec une attention particulière portée à l'optimisation des images pour réduire l'empreinte écologique du site.",
-            "La maîtrise de Node.js, Express et MongoDB s'est avérée cruciale pour ce projet, me permettant de créer un back-end robuste et performant. En implémentant les opérations CRUD de manière sécurisée et en suivant une architecture MVC, j'ai acquis des compétences essentielles pour le développement back-end. De plus, la collaboration avec un développeur front-end expérimenté a enrichi mon expérience professionnelle, renforçant ainsi ma capacité à travailler en équipe sur des projets complexes."
+            "L'enjeu de ce projet à été dans un premier temps, d'apprendre les bases du fonctionnement d'un serveur back-end, puis de le mettre en place en utilisant EXPRESS.Ensuite j'ai du creer une base de donnée sur MONGO DB et la faire communiquer avec mon serveur.",
+            "J'ai mis en place une architecture MVC (modele-vue-controller) pour implementer mes opération CRUD (create-read-update-delete)",
+            "J'ai due aussi creer un systeme d'authentification sécurisé, et optimiser le telechargement de mes images en respectant les regles du GREEN CODE"
         ],
         "skills":[
-            "Organisation et découpage du projet avec NOTION.",
-            "Réaliser une veille technologique.",
-            "Création d'une maquette FIGMA et WIREFRAME.",
-            "Integration avec REACT et sa librairie REACT ROUTER.",
-            "Deploiement avec NETFLIFY"
+            "Creer un serveur avec EXPRESS",
+            "Creer une base de donnée distante",
+            "Implementer les operations CRUD",
+            "Respecter les règles du GREEN CODE",
+            "Traitement des images avec SHARP et MULTER",
+            "Sécuriser un serveur avec des variables environnements"
         ],
-        "techno": ["Express", "MongoDB","Green Code","Architecture MVC","Operation CRUD","NodeJS","Securité"],
+        "techno": ["Express", "MongoDB","Green Code","NodeJS","Securité"],
         "links": [
-            { "text": "Voir sur Github", "icon": "faGithub", "link": "https://github.com/myriamsierra/finalP7"}
+            { "text": "Voir sur Github", "icon":"fa-brands fa-github", "link": "https://github.com/myriamsierra/finalP7"}
         ],
         "pictures":[
             "https://github.com/myriamsierra/Database-Pour-Portfolio/blob/main/2024-03-19_14h58_36.png?raw=true",
@@ -103,29 +105,32 @@
         "title": "BOOKI",
         "subtitle": "/ Projet OpenClassRooms",
         "subtext" :"Project réalisé dans le cadre de la formation developeur(se) OpenclassRooms",
-        "description": "Dans ce projet, j'ai créer la page d'accueil d'une agence de voyage en utilisant HTML et CSS, en me basant sur des maquettes Figma pour mobile, tablette et desktop ainsi que sur des images et des notes de synthèse.",
+        "description": "Ce projet est le premier projet de ma formation.J'ai été mandatée par une agence de voyage pour integrer la maquette de leur site.Pour ce faire je dois utiliser les langages HTML et CSS",
         "image": "https://github.com/myriamsierra/ImgPortfolio/blob/main/2024-03-08_18h18_32.png?raw=true",
         "tag": ["Tous", "Landing page"],
         "text":[
-            "Dans ce projet, j'ai créé la page d'accueil d'une agence de voyage en utilisant HTML et CSS. À partir des maquettes Figma pour mobile, tablette et desktop ainsi que des images fournies, j'ai intégré une interface responsive pour assurer une expérience utilisateur cohérente sur tous les appareils. En écrivant mon propre code HTML et CSS plutôt que de simplement utiliser l'outil de code de Figma, j'ai acquis une compréhension approfondie de la structuration et de la stylisation du code pour répondre aux exigences de design.",
-            "La capacité à créer des interfaces web responsives est essentielle dans le développement web moderne. En développant ce projet, j'ai renforcé mes compétences en design responsive, ce qui me permettra de devenir un développeur front-end compétent. En plus d'intégrer des maquettes avec précision, j'ai appris à configurer un environnement de développement efficace et à versionner mon projet avec Git et Github, des compétences indispensables pour tout professionnel du développement web."
+            "Pour ce projet, j'ai due faire mes premier pas dans le monde du devellopement web",
+            "Tout d'abord apprendre à decouper une maquette, installer un editeur de code, et commencer mes premieres ligne de code en utilisant HTML et CSS",
+            "L'enjeu à été de respecter les normes de semantiques HTML, et de structurer le style de mon code avec du CSS, Puis de m'assurer que le site s'adapte a toutes les tailles d'ecrans, que ce soit mobile, tablette ou ordinateur",
+            "Et pour finir j'ai appris a utiliser GITHUB pour versionner mon projet"
         ],
         "skills":[
-            "Organisation et découpage du projet avec NOTION.",
-            "Réaliser une veille technologique.",
-            "Création d'une maquette FIGMA et WIREFRAME.",
-            "Integration avec REACT et sa librairie REACT ROUTER.",
-            "Deploiement avec NETFLIFY"
+            "Decoupage d'une maquette FIGMA et WIREFRAME.",
+            "Apprendre la semantique HTML",
+            "Concevoir un site RESPONSIVE",
+            "Versionner mon projet grâce a GITHUB",
+            "Valider mon site avec W3C"
+            
         ],
         "techno": ["HTML", "CSS","Responsive"],
         "links": [
-            { "text": "Voir le site","link": "https://myriamsierra.github.io/Projet-OpenclassRooms-Booki/?search=#"},
-            { "text": "Voir sur Github","link": "https://github.com/myriamsierra/Booki-P2"}
+            { "text": "Voir le site","link": "https://myriamsierra.github.io/Projet-OpenclassRooms-Booki/?search=#","icon": "fa-solid fa-plus"},
+            { "text": "Voir sur Github","link": "https://github.com/myriamsierra/Booki-P2","icon":"fa-brands fa-github"}
         ],
         "pictures":[
-            "https://github.com/myriamsierra/ImgPortfolio/blob/main/2024-03-18_21h04_58.png?raw=true",
-            "https://github.com/myriamsierra/ImgPortfolio/blob/main/2024-03-18_21h04_42.png?raw=true",
-            "https://github.com/myriamsierra/ImgPortfolio/blob/main/2024-03-18_21h51_27.png?raw=true"
+            "https://github.com/myriamsierra/Database-Pour-Portfolio/blob/main/2024-03-23_14h21_37.png?raw=true",
+            "https://github.com/myriamsierra/Database-Pour-Portfolio/blob/main/2024-03-23_14h21_55.png?raw=true",
+            "https://github.com/myriamsierra/Database-Pour-Portfolio/blob/main/2024-03-23_14h22_05.png?raw=true" 
         ]
     },
     {
@@ -138,21 +143,20 @@
         "image": "https://github.com/myriamsierra/ImgPortfolio/blob/main/2024-03-08_18h23_09.png?raw=true",
         "tag": ["Tous", "Seo","Javascript"],
         "text":[
-            "Dans ce projet, j'ai travaillé sur l'optimisation du référencement d'un site en améliorant sa performance et son accessibilité. J'ai commencé par identifier les problèmes de chargement et de référencement en utilisant des outils tels que Lighthouse et Wave pour évaluer les performances actuelles du site. Ensuite, j'ai proposé des recommandations pour améliorer la vitesse de chargement, la structure du code et le référencement, que j'ai appliquées en modifiant le code du site. Mon objectif était d'améliorer les performances et l'accessibilité du site pour un meilleur référencement sur les moteurs de recherche.",
-            "L'optimisation du référencement (SEO) et de l'accessibilité sont des compétences cruciales dans le développement web moderne. En réalisant ce projet, j'ai renforcé mes compétences en analyse et en amélioration des performances d'un site, ce qui contribuera directement à l'expérience utilisateur et à la satisfaction des clients. En fournissant un rapport illustrant les résultats avant et après les modifications, j'ai démontré l'impact positif de mon travail sur le référencement et l'accessibilité du site.",
-            "Ce projet pour Nina Carducci, une photographe, m'a permis de mettre en pratique mes connaissances en optimisation SEO dans un contexte professionnel. En répondant aux besoins spécifiques de Nina, comme l'optimisation des images, la correction des bugs dans le code et la mise en place du référencement local, j'ai contribué à améliorer la visibilité et la performance de son site web."
+            "Dans ce projet, j'ai travaillé sur l'optimisation du référencement d'un site en améliorant sa performance et son accessibilité. J'ai commencé par identifier les problèmes de chargement et de référencement en utilisant des outils tels que Lighthouse et Wave pour évaluer les performances actuelles du site. Ensuite, j'ai proposé des recommandations pour améliorer la vitesse de chargement, la structure du code et le référencement, que j'ai appliquées en modifiant le code du site.",
+            "L'optimisation du référencement (SEO) et de l'accessibilité sont des compétences cruciales dans le développement web moderne. En réalisant ce projet, j'ai renforcé mes compétences en analyse et en amélioration des performances d'un site, ce qui contribuera directement à l'expérience utilisateur et à la satisfaction des clients. En fournissant un rapport illustrant les résultats avant et après les modifications, j'ai démontré l'impact positif de mon travail sur le référencement et l'accessibilité du site."
         ],
         "skills":[
-            "Organisation et découpage du projet avec NOTION.",
-            "Réaliser une veille technologique.",
-            "Création d'une maquette FIGMA et WIREFRAME.",
-            "Integration avec REACT et sa librairie REACT ROUTER.",
-            "Deploiement avec NETFLIFY"
+            "Faire un AUDIT pour mesurer les performances et le SEO",
+            "Manipuler des métadonnées",
+            "Optimiser le chargement des images",
+            "Respecter les normes d'accesibilité et d'inclusivité",
+            "Utiliser des outils et méthode de debugage"
         ],
-        "techno": ["Lighthouse", "wave","accesibilité"," optimisation Seo","Debug","google rich snipet","javascript"],
+        "techno": ["Lighthouse"," Seo","Debug","google rich snipet","green code"],
         "links": [
-            { "text": "Voir le site", "icon": "faPlus", "link": "https://projet-open-class-rooms-nina-carducci.vercel.app/"},
-            { "text": "Voir sur Github", "icon": "faGithub", "link": "https://github.com/myriamsierra/Nina-Carducci-p5"}
+            { "text": "Voir le site","icon": "fa-solid fa-plus", "link": "https://projet-open-class-rooms-nina-carducci.vercel.app/"},
+            { "text": "Voir sur Github", "icon":"fa-brands fa-github", "link": "https://github.com/myriamsierra/Nina-Carducci-p5"}
         ],
         "pictures":[
             "https://github.com/myriamsierra/ImgPortfolio/blob/main/2024-03-19_00h00_02.png?raw=true",
@@ -164,7 +168,7 @@
     {
         "id":"5758758",
         "number":"06",
-        "title": "EXERCICE JAVASCRIPT",
+        "title": "JAVASCRIPT",
         "subtitle": "/ Projet Entrainement Personnel",
         "subtext" :"Project personnel réalisé à partir de tutoriel ",
         "description": "Voici quatres projets, réaliser dans mes heures perdus.Le but etant de m'entrainer sur du Javascript, que ca soit a manipuler le dom, faire appel a des API,creer des objects ect ect ",
@@ -185,10 +189,10 @@
         ],
         "techno": ["Api","javascript","html","css"],
         "links": [
-            { "text": "Voir Plant-carrousel", "link": "https://exercice-javascript-carousel-plants.vercel.app/"},
-            { "text": "Voir Ask-metéo", "link": "https://myriamsierra.github.io/EXERCICE-JAVASCRIPT--METEO/"},
-            { "text": "Voir To-Do-List", "link": "https://exercice-javascript-to-do-list.vercel.app/"},
-            { "text": "Voir Guess-The-Number", "link": "https://exercice-javascript-guess-the-number.vercel.app/"}
+            { "text": "Plant-carrousel", "link": "https://exercice-javascript-carousel-plants.vercel.app/"},
+            { "text": "Ask-metéo", "link": "https://myriamsierra.github.io/EXERCICE-JAVASCRIPT--METEO/"},
+            { "text": "To-Do-List", "link": "https://exercice-javascript-to-do-list.vercel.app/"},
+            { "text": "Guess-The-Number", "link": "https://exercice-javascript-guess-the-number.vercel.app/"}
         ],
         "pictures":[
             "https://github.com/myriamsierra/Database-Pour-Portfolio/blob/main/2024-03-20_15h48_33.png?raw=true",

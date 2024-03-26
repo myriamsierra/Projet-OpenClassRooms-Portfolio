@@ -2,8 +2,6 @@ import React, { useEffect} from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useTheme } from '../../utils/theme-provider/dark-mode';
 import SocialLink from '../../component/components-réutilisable/social-links/social-links';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons'; // Import des icônes d'angle
 import './project-page.scss';
 import Carousel from './project-page-childs/carousel';
 import ProjectData from './../../database/projet.json';
@@ -37,8 +35,8 @@ const ProjectPage = () => {
     // Classes scss modulables
     const classes = {
         project: "project-page",
-        projectBox:"project-page__box",
-        title: "project-page__title",
+        projectBox: darkMode ? "project-page__box project-page__box__darkmode":'project-page__box',
+        title: darkMode ? "project-page__title project-page__title__darkmode":"project-page__title",
         subtitle: darkMode ? 'project-page__subtitle project-page__subtitle__darkmode':'project-page__subtitle',
         textBox: "project-page__text-box",
         techno: darkMode ? 'project-page__techno project-page__techno__darkmode' : 'project-page__techno',
@@ -46,7 +44,7 @@ const ProjectPage = () => {
         form: darkMode ? 'project-page__form project-page__form__darkmode' : 'project-page__form',
         backlink: darkMode ? 'project-page__backlink project-page__backlink__darkmode' : 'project-page__backlink',
         directionlink:"project-page__directionlink",
-        titleSkill:"project-page__skilltitle",
+        titleSkill:darkMode ? "project-page__skilltitle project-page__skilltitle__darkmode":'project-page__skilltitle',
         skills:"project-page__skills",
     };
 

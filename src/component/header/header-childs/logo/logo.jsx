@@ -4,7 +4,6 @@ import { useTheme } from '../../../../utils/theme-provider/dark-mode';
 import './logo.scss'; 
 
 const Logo = () => {
-
     //DARKMODE CONFIG ==>
     const { darkMode } = useTheme();
     const logoClass = darkMode ? 'logo logo__darkmode' : 'logo';

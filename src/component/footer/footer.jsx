@@ -9,14 +9,15 @@ const Footer = () => {
     const { darkMode } = useTheme();
     const classes = {
         footer: darkMode ? 'footer footer__darkmode' : 'footer',
-        copyright: darkMode ? 'footer__copyright footer__copyright__darkmode' : 'footer__copyright'
+        copyright: darkMode ? 'footer__copyright footer__copyright__darkmode' : 'footer__copyright',
+        formfooter : darkMode ? 'formfooter formfooter__darkmode':'formfooter'
     }
 
     return (
         <div>
             <footer className={classes.footer}> 
                 <p className={classes.copyright}>myriamsierra84@gmail.com | 2024.</p> 
-                <div className='formfooter'>
+                <div className={classes.formfooter}>
                     <Link to="https://github.com/myriamsierra" target="_blank">
                         <i class="fa-brands fa-github-alt"></i> 
                     </Link>

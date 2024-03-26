@@ -1,8 +1,9 @@
 [
+  
   {
     "title": "A propos de moi",
-    "text": "Je suis une développeuse web résidant à Marseille.",
-    "text2":"Avec une formation débutée sur OpenClassrooms en août 2023, je m'inspire de l'univers des jeux vidéo et du cinéma pour créer des expériences web uniques. ",
+    "text": "J'ai toujours évoluer dans des environement artistique et je me suis reconvertis en 2023 dans le developpement web grace à la plateforme OpenClassRooms",
+    "text2":"Je suis une grande passionnée de cinéma, de musique et de jeux vidéo, ce sont mes plus grandes source d'inspiration.",
     "text3":"Découvrez mes projets sur GitHub et n'hésitez pas à consulter mon profil LinkedIn pour en savoir plus sur mon parcours professionnel.",
     "symbol": "/",
     "image":"https://github.com/myriamsierra/Database-Pour-Portfolio/blob/main/book-8357328-6649338.png?raw=true",
@@ -20,11 +21,13 @@
     ]
   },
   {
+    
+
     "title": "Myriam Sierra",
     "subtitle":"Développeuse frontend junior",
-    "text": "Bonjour et bienvenue sur mon site ! ",
-    "text2":" Je suis passionnée par la création d'expériences utilisateur exceptionnelles, je m'efforce de donner vie à des designs élégants et fonctionnels.",
-    "text3":"Explorez mon portfolio pour découvrir mes projets et n'hésitez pas à me contacter pour discuter de vos idées .",
+    "text": "Hello et bienvenue sur mon portfolio ! ",
+    "text3":"Je suis actuellement à la recherche de nouvelles opportunités, que ce soit pour un stage, un poste de junior ou même une future alternance en design UX/UI, ou pour tout autres projets collaboratifs.",
+    "text4":"Explorez mon portfolio pour découvrir mes projets et n'hésitez pas à me contacter pour discuter de vos idées .",
     "symbol1": "<",
     "symbol2":">",
     "image":"https://github.com/myriamsierra/Database-Pour-Portfolio/blob/main/10740609.png?raw=true",

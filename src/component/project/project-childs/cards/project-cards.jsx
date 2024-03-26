@@ -20,11 +20,12 @@ const ProjectCard = ({ image, title,subtitle, description,number}) => {
         titleBox:"project-cards__title-box",
         subtitle:darkMode ? 'project-cards__subtitle project-cards__subtitle__darkmode' : 'project-cards__subtitle',
         imageBox:darkMode ? 'project-cards__imagebox project-cards__imagebox__darkmode' : 'project-cards__imagebox',
+        numberBox:darkMode ? 'numberBox numberBox__darkmode' : 'numberBox',
     }
 
     return (
         <div className={classes.card}>
-            <div className='form'><p>#{number}</p></div>
+            <div className={classes.numberBox}><p>#{number}</p></div>
             <div className='box'>
                 <div className={classes.titleBox}>
                     <h3 className={classes.title}>{title}</h3>

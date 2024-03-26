@@ -2,12 +2,16 @@
     margin-top: 70px;
     display: flex;
     justify-content: end;
-    
+    margin-right: 30px; 
+
+    @media (max-width: 1150px) {
+        justify-content: center; 
+      }
 
     &__contenair{
         padding: 30px;
-        width: 600px;
-        height: 200px;
+        width: 45%;
+        height: 20%;
         border-radius: 60px;
         background-color: rgb(9, 167, 167);
         box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; 
@@ -15,18 +19,22 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
+        &__darkmode{
+            background-color: rgb(206, 142, 3);
+        }
         
     }
 
     &__button{
-        margin-left: 200px;
+        margin-left: 30%;
         width: fit-content;
         height: fit-content;
         font-size: 1.1rem;
         color: rgb(0, 181, 187);
         font-weight: 300;
         font-family: "Lobster Two", sans-serif;
-        border-radius: 20px;
+        border-radius: 30px;
         padding: 12px 20px;
         background-color: rgb(235, 235, 235);
         box-shadow: rgb(166, 170, 173) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.171) -3px -3px 6px 1px inset;
@@ -38,17 +46,35 @@
         gap: 15px;
         align-items: center;
         border: 2px solid rgba(1, 113, 133, 0.815);
+
+        @media (max-width: 600px) {
+            margin-left: 0;
+        }
+
+        &__darkmode{
+            background-color: rgb(43, 43, 43);
+            box-shadow: rgb(0, 0, 0) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.171) -3px -3px 6px 1px inset;
+            border: 2px solid rgba(0, 0, 0, 0.815);
+            color:white;
+
+            &:hover{
+                background-color: rgb(32, 32, 32);
+            }
+        }
     }
 
     &__button i {
         font-size: 1.9rem;
     }
 
-    
-    &__button:hover {
-        background-color: rgb(211, 211, 211);
+    &__button:hover {        
         transform: translateX(28px); 
-        transition: transform 0.8s ease;   
+        transition: transform 0.8s ease; 
+        
+        @media (max-width: 600px) {
+            transform: translatey(-8px);
+        }
+
     }
 
     &__button:active {
@@ -58,7 +84,20 @@
 
 .upload img {
     position: absolute;
-    width: 300px;
-    top:-50px;
-    left: -50px;
+    width: 50%;
+    top:-50%;
+    left: -10%;
+
+    @media (max-width: 1080px) {
+        left: -19%;
+    }
+
+    @media (max-width: 900px) {
+        left:-19%;
+        top:-20% 
+    }
+
+    @media (max-width: 600px) {
+        width: 0;
+    }
 }

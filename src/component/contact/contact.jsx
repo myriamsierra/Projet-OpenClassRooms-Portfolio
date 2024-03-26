@@ -13,11 +13,14 @@ const Contact = () => {
         formMess: darkMode ? 'contact__form__message contact__form__message__darkmode' : 'contact__form__message',
         formButton: darkMode ? 'contact__form__button contact__form__button__darkmode' : 'contact__form__button',
         formInfo: darkMode ? 'contact__form__info contact__form__info__darkmode' : 'contact__form__info',
+        contactBox: darkMode ? 'contact__box  contact__box__darkmode' : ' contact__box',
+        colorBox: darkMode ? 'color-box color-box__darkmode':'color-box',
+        thanks:darkMode ? 'thanks thanks__darkmode':'thanks',
     };
-
+  
     return (
         <div className="contact">
-            <div className="contact__box">
+            <div className={classes.contactBox}>
                 <div className="contact__title-box">
                     <Symbols symbols="<" symbolssize="contact__symbol" />
                     <Title h2="Contact" />
@@ -41,13 +44,13 @@ const Contact = () => {
                             className="contact__form__name" 
                             type="text" 
                             name="nom" 
-                            placeholder="Votre nom ici..."
+                            placeholder="Nom ..."
                         />
                         <input 
                             className="contact__form__email" 
                             type="email" 
                             name="email" 
-                            placeholder="Votre email ici..."
+                            placeholder="Email ..."
                         />
                     </div>
     
@@ -63,9 +66,9 @@ const Contact = () => {
                         <i className="fa-regular fa-paper-plane"></i> Envoyer
                     </button>
                 </form>
-                <div className="contact__picture"><img src={ImgTest} className="contact__illustration" alt="bla"/></div>  
+                <div className={classes.colorBox}><img src={ImgTest} className="contact__illustration" alt="bla"/></div>  
             </div>
-            <p className='contact__thanks'>Merci pour ta visite <i class="fa-solid fa-heart"></i></p>
+            <p className={classes.thanks}>Merci pour ta visite <i class="fa-solid fa-heart"></i></p>
         </div>
     );
     

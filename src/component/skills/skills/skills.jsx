@@ -38,7 +38,7 @@ const Skills = () => {
     //classes scss modulable 
     const classes = {
         skills:'skills',
-        skillsBox :'skills__box',
+        skillsBox : darkMode ? 'skills__box skills__box__darkmode':'skills__box',
         title : 'skills__title',
         cards :'skills__cards',
         symbol: 'skills__symbols',

@@ -1,6 +1,6 @@
 
 .footer{
-    margin-top: 200px;
+    margin-top: 5%;
     display: flex;
     justify-content: center;
     padding: 35px 5px;
@@ -11,6 +11,10 @@
     position: relative;
     z-index: 5;
 
+    @media (max-width: 700px) {
+        margin-top: 80px; 
+    }
+
     &__darkmode{
         color:orange;
         background-color: rgba(14, 14, 14, 0.452);
@@ -18,7 +22,10 @@
     }
    
     &__copyright{
-        font-size: 1.2rem;
+        font-size: 1.2vw;
+        @media (max-width: 900px) {
+            font-size: 1rem; 
+        }
     }
 }
 
@@ -38,7 +45,18 @@
     font-size: 1.5rem;
     align-items: center;
     padding-left: 45px;
-    
+
+    @media (max-width: 300px) {
+        width: 200px;
+        left: 40px;
+        justify-content: center;
+        padding-left: 20px;
+    }
+
+    @media (max-width: 260px) {
+        width:180px;
+        left: 30px;
+    }
 }
 
 .formfooter *{
@@ -62,4 +80,8 @@
 
 .footer i {
     color: rgb(170, 10, 157);
+}
+
+.footer__darkmode i  {
+    color :rgb(255, 94, 0)
 }

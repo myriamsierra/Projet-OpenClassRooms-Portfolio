@@ -1,6 +1,6 @@
 import React from 'react';
-import DarkModeButton from './../header-childs/button-dark-mode/button-dark-mode';
 import { useTheme } from './../../../utils/theme-provider/dark-mode';
+import DarkModeButton from './../header-childs/button-dark-mode/button-dark-mode';
 import Logo from './../header-childs/logo/logo';
 import Navbar from './../header-childs/navbar/navbar';
 import './header.scss';

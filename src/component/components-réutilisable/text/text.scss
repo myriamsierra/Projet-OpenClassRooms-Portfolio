@@ -1,17 +1,54 @@
 .text {
-    width: 600px;
-    font-size: 1.3rem;
-    margin-left: 5%;
+    padding-top: 5px;
+    width:550px;
+    font-size: 1.2vw;
+
+    @media (max-width: 1150px) {
+        font-size: 1rem;  
+     } 
+
+     @media (max-width: 1150px) {
+        width: 98%;
+        margin: auto;  
+     } 
+
+     @media (max-width: 350px) {
+        font-size: 0.8rem;  
+     } 
+
 }
 
 .text2{
-    width: 600px;
-    font-size: 1.3rem;
-    margin-left: 5%;
+    width:550px;
+    font-size: 1.2vw;
+    @media (max-width: 1150px) {
+        font-size: 1rem;
+        width: 100%;  
+     }
+     
+     @media (max-width: 1150px) {
+        width: 98%;
+        margin: auto;  
+     } 
+
+     @media (max-width: 350px) {
+        font-size: 0.8rem;  
+     } 
 }
 
 .text3{
-    width: 600px;
-    font-size: 1.3rem;
-    margin-left: 5%;
+    width:550px;
+    font-size: 1.2vw;
+    @media (max-width: 1150px) {
+        font-size: 1rem;  
+     } 
+     
+     @media (max-width: 1150px) {
+        width: 98%;
+        margin: auto;  
+     } 
+
+     @media (max-width: 350px) {
+        font-size: 0.8rem;  
+     } 
 }
