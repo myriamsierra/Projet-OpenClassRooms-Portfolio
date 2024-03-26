@@ -65,7 +65,7 @@
         @media (max-width: 500px) {
             width: 95%;
         }
-        
+
         &__darkmode{
             background-color: rgba(43, 43, 43, 0.753);
         }
@@ -177,7 +177,7 @@
             // margin-top: 60px;
             display: flex;
             gap:40px;
-            justify-content: end;
+            justify-content:flex-end;
 
             @media (max-width: 1150px) {
                 justify-content: center;       
