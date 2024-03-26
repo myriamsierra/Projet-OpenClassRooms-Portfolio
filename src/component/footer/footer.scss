@@ -46,6 +46,11 @@
     align-items: center;
     padding-left: 45px;
 
+    &__darkmode{
+        background-color: orange;
+    }
+    
+
     @media (max-width: 300px) {
         width: 200px;
         left: 40px;
