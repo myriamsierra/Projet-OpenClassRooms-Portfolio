@@ -29,7 +29,7 @@ const Contact = () => {
                 <form 
                     className="contact__form"
                     method="POST" 
-                    name="form-name" 
+                    name="contact" 
                     data-netlify="true" 
                    >
                     
