@@ -29,13 +29,13 @@ const Contact = () => {
                 <form 
                     className="contact__form"
                     method="POST" 
-                    name="contact" 
+                    name="form-name" 
                     data-netlify="true" 
                    >
                     
                     <input 
                         type="hidden" 
-                        name="contact" 
+                        name="form-name" 
                         value="contact" 
                     />
     
