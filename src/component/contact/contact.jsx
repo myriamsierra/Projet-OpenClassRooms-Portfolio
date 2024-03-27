@@ -35,7 +35,7 @@ const Contact = () => {
                     
                     <input 
                         type="hidden" 
-                        name="contact" 
+                        name="form-name" 
                         value="contact" 
                     />
     
