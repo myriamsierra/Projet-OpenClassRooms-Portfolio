@@ -43,7 +43,7 @@ const Contact = () => {
                         <input
                             className="contact__form__name" 
                             type="text" 
-                            netlify-name="nom"  
+                            netlify-name="name"  
                             placeholder="Nom ..."
                         />
                         <input 
