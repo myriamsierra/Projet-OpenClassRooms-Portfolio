@@ -43,21 +43,24 @@ const Contact = () => {
                         <input
                             className="contact__form__name" 
                             type="text" 
-                            netlify-name="name"  
+                            netlify-name="Name"  
                             placeholder="Nom ..."
+                            id="name"
                         />
                         <input 
                             className="contact__form__email" 
                             type="email" 
-                            netlify-name="email" 
+                            netlify-name="Email" 
                             placeholder="Email ..."
+                            id="email"
                         />
                     </div>
     
                     <textarea 
                         className={classes.formMess} 
-                        netlify-name="message" 
+                        netlify-name="Message" 
                         placeholder="Votre message ici..."
+                        id="message"
                     />
     
                     <button 
