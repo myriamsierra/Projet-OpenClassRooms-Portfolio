@@ -28,29 +28,25 @@ const Contact = () => {
                 </div>
                 <form 
                     className="contact__form"
-                    method="POST" 
+                    method="post" 
                     name="contact" 
                     data-netlify="true" 
                    >
                     
-                    <input 
-                        type="hidden" 
-                        name="form-name" 
-                        value="contact" 
-                    />
+                    <input type="hidden" name="form-name" value="contact" />
     
                     <div className={classes.formInfo}>
                         <input
                             className="contact__form__name" 
                             type="text" 
-                            netlify-name="Name"  
+                            name="name"  
                             placeholder="Nom ..."
                             id="name"
                         />
                         <input 
                             className="contact__form__email" 
                             type="email" 
-                            netlify-name="Email" 
+                            name="email" 
                             placeholder="Email ..."
                             id="email"
                         />
@@ -58,7 +54,7 @@ const Contact = () => {
     
                     <textarea 
                         className={classes.formMess} 
-                        netlify-name="Message" 
+                        name="message" 
                         placeholder="Votre message ici..."
                         id="message"
                     />
