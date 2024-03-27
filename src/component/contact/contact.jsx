@@ -31,7 +31,7 @@ const Contact = () => {
                     method='post' 
                     name="contact" 
                     data-netlify="true" 
-                    onSubmit="submit">
+                   >
                     
                     <input 
                         type="hidden" 
@@ -43,20 +43,20 @@ const Contact = () => {
                         <input
                             className="contact__form__name" 
                             type="text" 
-                            name="nom" 
+                            netlify-name="nom"  
                             placeholder="Nom ..."
                         />
                         <input 
                             className="contact__form__email" 
                             type="email" 
-                            name="email" 
+                            netlify-name="email" 
                             placeholder="Email ..."
                         />
                     </div>
     
                     <textarea 
                         className={classes.formMess} 
-                        name="message" 
+                        netlify-name="message" 
                         placeholder="Votre message ici..."
                     />
     
